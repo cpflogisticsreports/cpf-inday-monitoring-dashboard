@@ -1,0 +1,48 @@
+name: Update PAGASA bulletin
+
+# Runs the scraper on a schedule and commits latest_inday_pagasa.json when the
+# official PAGASA bulletin changes. No secrets or third-party actions required.
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"     # every 30 min (UTC). GitHub may delay by a few min.
+  workflow_dispatch: {}         # adds a manual "Run workflow" button
+
+permissions:
+  contents: write               # allow the built-in token to commit the JSON
+
+concurrency:
+  group: pagasa-update
+  cancel-in-progress: false     # never interrupt a run mid-commit
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      STORM_NAME: INDAY                       # <-- change to the next storm's name
+      OUT_PATH:   docs/latest_inday_pagasa.json      # <-- must match the file the dashboard fetches
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # The scraper uses only the Python standard library — nothing to install.
+      - name: Fetch PAGASA bulletin & regenerate JSON
+        run: python scripts/update_pagasa.py
+
+      - name: Commit & push if the bulletin changed
+        run: |
+          if [ -n "$(git status --porcelain "$OUT_PATH")" ]; then
+            git config user.name  "pagasa-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add "$OUT_PATH"
+            git commit -m "chore(pagasa): auto-update $OUT_PATH [skip ci]"
+            git push
+            echo "Committed an update to $OUT_PATH."
+          else
+            echo "No change in the PAGASA bulletin — nothing to commit."
+          fi
