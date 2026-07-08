@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "source": "PAGASA",
+    "bulletinNo": "Tropical Cyclone Bulletin (5 PM)",
+    "issuedLabel": "5:00 PM · Wed 08 Jul 2026",
+    "asOf": "position as of 4 PM",
+    "nextBulletin": "11:00 PM · 08 Jul 2026",
+    "verifiedNote": "Replace this file with each new PAGASA bulletin. Set latlonExact true and enter exact decimals from the PAGASA bulletin PDF to plot true PAGASA coordinates."
+  },
+  "current": {
+    "name": "INDAY", "intl": "BAVI", "cat": "Super Typhoon",
+    "ninth": "9th PH cyclone of 2026, 2nd for July",
+    "positionRef": "1,170 km E of Northern Luzon (inside PAR)",
+    "lat": 17.8, "lon": 133.1, "latlonExact": false,
+    "winds": "195 km/h", "gust": "240 km/h",
+    "pressure": "Not specified in latest PAGASA bulletin (930 hPa at 5 AM)",
+    "movement": "West · 20 km/h", "windExtent": "Up to 900 km from center",
+    "entered": "Entered PAR at 3:00 AM, 08 Jul", "landfallPH": "PH landfall unlikely",
+    "outlook": "Maintains super-typhoon strength until Thu 09 Jul; may weaken to a typhoon by Thu evening or early Fri morning. Nearest Extreme N. Luzon by Fri 10 Jul; exits PAR Sat 11 Jul; forecast China landfall Sun 12 Jul. Likely stays over the Philippine Sea."
+  },
+  "forecast": [
+    {"label":"THU","when":"09 Jul (Thu)","lat":18.4,"lon":129.0,"latlonExact":false,"ref":"Over Philippine Sea (W → turning NW)","cat":"Super Typhoon → Typhoon","winds":"Not specified in latest PAGASA bulletin","gust":"Not specified in latest PAGASA bulletin","move":"West, turning NW","place":"Moving generally west then turning northwest, remaining over the Philippine Sea."},
+    {"label":"FRI","when":"10 Jul (Fri)","lat":20.6,"lon":123.2,"latlonExact":false,"ref":"Nearest Extreme N. Luzon (offshore, E of Batanes)","cat":"Typhoon","winds":"Not specified in latest PAGASA bulletin","gust":"Not specified in latest PAGASA bulletin","move":"Northwest","place":"Closest approach toward Extreme Northern Luzon — remains well offshore, east of Batanes."},
+    {"label":"SAT","when":"11 Jul (Sat)","lat":24.8,"lon":122.3,"latlonExact":false,"ref":"Sea north of Taiwan; exits PAR","cat":"Typhoon","winds":"Not specified in latest PAGASA bulletin","gust":"Not specified in latest PAGASA bulletin","move":"Northwest","place":"Over the sea north of Taiwan toward the southern islands of Japan; exits PAR by Saturday 11 Jul."},
+    {"label":"SUN","when":"12 Jul (Sun)","lat":27.5,"lon":120.6,"latlonExact":false,"ref":"E. coast of mainland China (narrative outlook)","cat":"Typhoon (weakening)","winds":"Not specified in latest PAGASA bulletin","gust":"Not specified in latest PAGASA bulletin","move":"Northwest","place":"PAGASA narrative outlook: forecast landfall over the eastern coast of mainland China."}
+  ],
+  "par": [[5,115],[15,115],[21,120],[25,120],[25,135],[5,135]],
+  "tcws": {
+    "highest": "No. 2 or 3 (possible)",
+    "signal1": ["Batanes","Cagayan incl. Babuyan Is.","Apayao","Northern Abra (Tineg, Lagayan, Danglas, San Juan, Lagangilang, Licuan-Baay, Malibcong, Lacub, Daguioman, Dolores, La Paz)","Northern & central Isabela","Eastern Kalinga (Pinukpuk, City of Tabuk, Rizal)","Northern Aurora (Dilasag)","Northern & central Catanduanes"],
+    "note": "Signal No. 1 = 39–61 km/h winds possible within 36 hrs; minimal to minor threat. Full municipality list per PAGASA bulletin (pagasa.dost.gov.ph)."
+  },
+  "gusts": {
+    "today": "Pangasinan, Zambales, Bataan, CALABARZON, most of MIMAROPA, Bicol Region, most of Visayas, most of Mindanao",
+    "thu": "Most of the country",
+    "fri": "Most of the country"
+  },
+  "rainfall": {
+    "tc": [{"window":"Friday, 10 Jul","amount":"50–100 mm","areas":"Batanes"}],
+    "monsoon": [
+      {"window":"Wed PM–Thu PM (08–09 Jul)","amount":"50–100 mm","areas":"Antique, Negros Occ., Sultan Kudarat, Sarangani","intense":false},
+      {"window":"Thu PM–Fri PM (09–10 Jul)","amount":"50–100 mm","areas":"Occidental Mindoro, Palawan, Antique, Iloilo, Guimaras, Negros Occ., Negros Or., Zamboanga del Sur, Lanao del Norte, Lanao del Sur","intense":false},
+      {"window":"Fri PM–Sat PM (10–11 Jul)","amount":"100–200 mm","areas":"Occidental Mindoro, Antique","intense":true},
+      {"window":"Fri PM–Sat PM (10–11 Jul)","amount":"50–100 mm","areas":"Zambales, Bataan, Pampanga, Bulacan, Metro Manila, Cavite, Batangas, Oriental Mindoro, Romblon, Palawan, Aklan, Iloilo, Guimaras, Negros Occ., Negros Or., Zamboanga del Sur, Lanao del Norte","intense":false}
+    ],
+    "note": "Rainfall = PAGASA TC rainfall (Batanes) + PAGASA 3-day Southwest Monsoon outlook. Floods and landslides are likely."
+  },
+  "marine": {
+    "galeWarning": "Gale Warning No. 2 (issued 5:00 PM) — northern & eastern seaboards of Luzon, and the eastern seaboard of Visayas.",
+    "waves": [
+      {"h":"Up to 5.0 m","where":"Seaboard of Isabela; eastern seaboards of Batanes and Cagayan incl. Babuyan Islands"},
+      {"h":"Up to 4.5 m","where":"Seaboard of Camarines Norte; remaining seaboards of Batanes & Cagayan incl. Babuyan Is.; northern seaboards of Aurora, Camarines Sur & Eastern Samar"}
+    ],
+    "advice": "Sea travel is risky for all types/tonnage of vessels in the affected seaboards. Mariners must remain in port or seek safe harbor until winds and waves subside."
+  },
+  "satellite": {
+    "himawari": "JMA Himawari-9 (real-time, ~10-min)",
+    "base": "Esri World Imagery (Maxar/Earthstar) satellite base",
+    "note": "Satellite imagery is visual context only. Cloud position/appearance must not be used to infer storm movement — the official center and track come from PAGASA."
+  },
+  "changeLog": [
+    {"t":"Winds","from":"185 km/h","to":"195 km/h","dir":"up"},
+    {"t":"Gusts","from":"230 km/h","to":"240 km/h","dir":"up"},
+    {"t":"Position","from":"1,405 km E of N. Luzon (5 AM)","to":"1,170 km E of N. Luzon (5 PM)","dir":"up"},
+    {"t":"Movement","from":"W · 25 km/h","to":"W · 20 km/h","dir":"dn"},
+    {"t":"Gale Warning","from":"No. 1","to":"No. 2 (waves up to 5.0 m)","dir":"up"},
+    {"t":"TCWS","from":"7 areas","to":"expanded (incl. northern Abra)","dir":"up"}
+  ]
+}
