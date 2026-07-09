@@ -1,97 +1,87 @@
 {
-  "last_checked": "2026-07-09T06:23:03+00:00",
+  "last_checked": "2026-07-09T08:50:35+00:00",
   "latest_pagasa_update": {
     "source_type": "TCB",
-    "number": "Tropical Cyclone Bulletin No. 7",
-    "issued_at": "11:00 AM, 09 July 2026",
-    "valid_until": "the next bulletin at 5:00 PM today",
-    "source_url": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%237_inday.pdf"
+    "number": "Tropical Cyclone Bulletin No. 8",
+    "issued_at": "5:00 PM, 09 July 2026",
+    "valid_until": "the next bulletin at 11:00 PM today",
+    "source_url": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%238_inday.pdf"
   },
   "storm": {
     "name": "INDAY",
     "international_name": "BAVI",
     "category": "Typhoon",
-    "current_center_time": "10:00 AM",
-    "lat": 18.4,
-    "lon": 129.8,
-    "position_description": "865 km East of Northern Luzon",
+    "current_center_time": "4:00 PM",
+    "lat": 18.7,
+    "lon": 129.0,
+    "position_description": "780 km East of Aparri, Cagayan",
     "max_winds_kmh": 165,
     "gustiness_kmh": 205,
     "central_pressure_hpa": 945,
-    "movement": "Northwestward at 15 km/h",
-    "movement_speed_kmh": 15,
-    "wind_extent_km": 870
+    "movement": "West Northwestward at 20 km/h",
+    "movement_speed_kmh": 20,
+    "wind_extent_km": 860
   },
   "forecast_track": [
     {
       "label": "Current",
-      "forecast_time": "Current: 10:00 AM, 09 July 2026",
-      "lat": 18.4,
-      "lon": 129.8,
-      "position_description": "865 km East of Northern Luzon",
+      "forecast_time": "Current: 4:00 PM, 09 July 2026",
+      "lat": 18.7,
+      "lon": 129.0,
+      "position_description": "780 km East of Aparri, Cagayan",
       "max_winds_kmh": 165,
       "gustiness_kmh": 205,
       "central_pressure_hpa": 945,
       "category": "Typhoon",
-      "movement_direction": "Northwestward",
-      "movement_speed_kmh": 15
+      "movement_direction": "West Northwestward",
+      "movement_speed_kmh": 20
     },
     {
-      "forecast_time": "8:00 PM, 09 July 2026",
-      "lat": 19.4,
-      "lon": 128.6,
-      "position_description": "750 km East of Calayan, Cagayan",
-      "max_winds_kmh": 165,
-      "category": "Typhoon",
-      "movement_direction": "NW",
-      "movement_speed_kmh": 15
-    },
-    {
-      "forecast_time": "8:00 AM, 10 July 2026",
-      "lat": 21.1,
-      "lon": 126.7,
-      "position_description": "505 km East of Itbayat, Batanes",
-      "max_winds_kmh": 165,
-      "category": "Typhoon",
-      "movement_direction": "NW",
-      "movement_speed_kmh": 25
-    },
-    {
-      "forecast_time": "8:00 PM, 10 July 2026",
-      "lat": 22.7,
-      "lon": 125.2,
-      "position_description": "410 km East Northeast of Itbayat, Batanes",
+      "forecast_time": "2:00 AM, 10 July 2026",
+      "lat": 20.1,
+      "lon": 127.6,
+      "position_description": "590 km East of Basco, Batanes",
       "max_winds_kmh": 165,
       "category": "Typhoon",
       "movement_direction": "NW",
       "movement_speed_kmh": 20
     },
     {
-      "forecast_time": "8:00 AM, 11 July 2026",
-      "lat": 24.9,
-      "lon": 122.8,
-      "position_description": "470 km North Northeast of Itbayat, Batanes",
-      "max_winds_kmh": 155,
+      "forecast_time": "2:00 PM, 10 July 2026",
+      "lat": 21.7,
+      "lon": 126.1,
+      "position_description": "455 km East Northeast of Itbayat, Batanes",
+      "max_winds_kmh": 165,
       "category": "Typhoon",
       "movement_direction": "NW",
-      "movement_speed_kmh": 30
+      "movement_speed_kmh": 20
     },
     {
-      "forecast_time": "8:00 PM, 11 July 2026",
-      "lat": 26.3,
-      "lon": 120.5,
-      "position_description": "630 km North Northwest of Itbayat, Batanes (OUTSIDE PAR)",
-      "max_winds_kmh": 140,
+      "forecast_time": "2:00 AM, 11 July 2026",
+      "lat": 23.7,
+      "lon": 124.1,
+      "position_description": "400 km Northeast of Itbayat, Batanes",
+      "max_winds_kmh": 155,
       "category": "Typhoon",
       "movement_direction": "NW",
       "movement_speed_kmh": 25
     },
     {
-      "forecast_time": "8:00 AM, 12 July 2026",
-      "lat": 28.3,
-      "lon": 117.9,
-      "position_description": "925 km North Northwest of Extreme Northern Luzon or in the vicinity of Jiangxi, China (OUTSIDE PAR)",
-      "max_winds_kmh": 100,
+      "forecast_time": "2:00 PM, 11 July 2026",
+      "lat": 25.6,
+      "lon": 121.9,
+      "position_description": "535 km North of Itbayat, Batanes (OUTSIDE PAR)",
+      "max_winds_kmh": 155,
+      "category": "Typhoon",
+      "movement_direction": "NW",
+      "movement_speed_kmh": 25
+    },
+    {
+      "forecast_time": "2:00 AM, 12 July 2026",
+      "lat": 27.7,
+      "lon": 119.2,
+      "position_description": "815 km North Northwest of Extreme Northern Luzon or in the vicinity of Zhejiang, China (OUTSIDE PAR)",
+      "max_winds_kmh": 110,
       "category": "Severe Tropical Storm",
       "movement_direction": "NW",
       "movement_speed_kmh": 30
@@ -99,14 +89,8 @@
   ],
   "tcws": [
     {
-      "signal": "TCWS No. 2",
-      "areas_raw": "Batanes",
-      "wind_range_kmh": "62–88",
-      "potential_impact": "Minor to moderate threat to life and property."
-    },
-    {
       "signal": "TCWS No. 1",
-      "areas_raw": "Cagayan including Babuyan Islands, Isabela, the northeastern portion of Quirino (Maddela), Apayao, the northern portion of Abra (Tineg, Lagayan, Danglas, San Juan, Lagangilang, Licuan-Baay, Malibcong, Lacub, Daguioman, Dolores, La Paz), Kalinga, the eastern portion of Mountain Province (Natonin, Paracelis), the eastern portion of Ifugao (Aguinaldo, Alfonso Lista), Ilocos Norte, the northern portion of Aurora (Dilasag, Casiguran), and the northern and central portions of Catanduanes (Pandan, Caramoran, Bagamanoc, Panganiban, Viga, Gigmoto, Baras, San Miguel)",
+      "areas_raw": "The rest of Cagayan including the rest of Babuyan Islands, Isabela, the northeastern portion of Quirino (Maddela), Apayao, the northern portion of Abra (Tineg, Lagayan, Danglas, San Juan, Lagangilang, Licuan-Baay, Malibcong, Lacub, Daguioman, Dolores, La Paz), Kalinga, the eastern portion of Mountain Province (Natonin, Paracelis), the eastern portion of Ifugao (Aguinaldo, Alfonso Lista), Ilocos Norte, the northern portion of Aurora (Dilasag, Casiguran), and the northern and central portions of Catanduanes (Pandan, Caramoran, Bagamanoc, Panganiban, Viga, Gigmoto, Baras, San Miguel)",
       "wind_range_kmh": "39–61",
       "potential_impact": "Minimal to minor threat to life and property."
     }
@@ -114,8 +98,8 @@
   "rainfall": [
     {
       "source": "Weather Advisory",
-      "issued_at": "11:00 AM, 09 July 2026",
-      "details_raw": "WEATHER ADVISORY NO. 12 For: Tropical Cyclone INDAY and Southwest MonsoonIssued at: 11:00 AM, 09 July 2026 Heavy rainfall outlook due to Tropical Cyclone INDAY ForecastRainfallToday to tomorrownoon (July 10) Tomorrow noon toSaturday noon (July11) Saturday noon toSunday noon (July 12) Potential Impacts (>200 mm) - - - Widespread incidents of severe flooding andlandslides expected. (100 – 200mm) - - - Numerous flooding events are likely,especially in areas that are urbanized, lowlying, or near rivers.Landslide likely in moderate to highlysusceptible areas. (50 – 100 mm) - Batanes - Localized flooding is possible mainly in areasthat are urbanized, low lying, or near rivers.Landslide possible in highly susceptibleareas. Heavy rainfall outlook due to Southwest Monsoon ForecastRainfallToday to tomorrownoon (July 10) Tomorrow noon toSaturday noon (July11) Saturday noon to Sundaynoon (July 12) Potential Impacts (>200 mm) - - - Widespread incidents of severeflooding and landslides expected. (100 – 200mm) - Occidental Mindoroand Antique Occidental Mindoro,Zambales, and Bataan Numerous flooding events are likely,especially in areas that are urbanized,low lying, or near rivers.Landslide likely in moderate to highlysusceptible areas. (50 – 100 mm) Occidental Mindoro,Antique, NegrosOccidental,Zamboanga del Sur,Lanao del Norte, andLanao del Sur Zambales, Bataan,Cavite, Batangas,Oriental Mindoro,Romblon, Palawan,Aklan, Capiz, Iloilo,Guimaras, NegrosOccidental, NegrosOriental, Zamboangadel Sur, Lanao delNorte, and Lanao delSur Pangasinan, La Union, Tarlac,Pampanga, Bulacan, MetroManila, Rizal, Cavite,Batangas, Oriental Mindoro,Romblon, Palawan, Aklan, andAntique Localized flooding is possible mainly inareas that are urbanized, low lying, ornear rivers.Landslide possible in highly susceptibleareas. Forecast rainfall may be higher in mountainous and elevated areas. Moreover, impacts in some areas may be worsened by significant antecedentrainfall. The public disaster risk reduction and management offices concerned are advised to take all necessary measure to protect life and property.PAGASA Regional Services Divisions may issue Heavy Rainfall Warnings/Thunderstorms Advisories, and other severe weather informationspecific to their areas of responsibility as appropriate. Unless significant changes occur, the next Weather Advisory will be issued at 5:00 PM today. PREPARED BY: DJEV CHECKED BY: MAGGE WFS-07 Rev.2/09-09-2024 \"tracking the sky ...helping the country\" Weather and Flood Forecasting CenterSenator Miriam P. Defensor-Santiago AvenueBrgy. Central, Quezon City 1100, Philippines Tel. No.: (+632) 8284-0800 ext. 4800 Website:https://bagong.pagasa.dost.gov.ph"
+      "issued_at": "",
+      "details_raw": ""
     }
   ],
   "marine": [
@@ -228,10 +212,12 @@
   ],
   "contractor_advisory": "All freight contractors must validate route, weather, road, bridge, and port conditions before dispatch. Keep GPS active and report flooding, landslides, road closures, port cancellations, strong winds, route deviations, or delays immediately.",
   "change_log": [
-    "Checked PAGASA sources; no material change versus last verified JSON."
+    "Bulletin updated: Tropical Cyclone Bulletin No. 7 → Tropical Cyclone Bulletin No. 8",
+    "Movement changed: Northwestward at 15 km/h → West Northwestward at 20 km/h",
+    "Wind extent changed: 870 → 860"
   ],
   "source_urls": {
-    "tcb": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%237_inday.pdf",
+    "tcb": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%238_inday.pdf",
     "weather_advisory": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/advisory.pdf",
     "gale": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/gale.pdf"
   },
