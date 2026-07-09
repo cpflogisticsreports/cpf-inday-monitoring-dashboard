@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 <title>CPF Logistics · Super Typhoon INDAY — Satellite Monitoring Dashboard</title>
 
-<!-- Leaflet (reliable geospatial renderer) -->
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<!-- Leaflet (reliable geospatial renderer). Primary CDN = cdnjs; JS also has jsdelivr/unpkg fallbacks in script. -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -246,6 +246,7 @@ ul.clean{margin:7px 0;padding-left:17px} ul.clean li{margin:5px 0}
   <span>Data: <b id="stSource">embedded seed</b></span>
   <span>Last checked: <b id="stChecked">—</b></span>
   <span>Bulletin: <b id="stBulletin">—</b></span>
+  <span id="stAge"></span>
   <span>Next check ≤ 5 min</span>
   <span class="flash" id="stFlash">NEW PAGASA UPDATE</span>
   <button class="btn" style="margin-left:auto" onclick="fetchLatest(true)">↻ Check now</button>
@@ -327,19 +328,19 @@ ul.clean{margin:7px 0;padding-left:17px} ul.clean li{margin:5px 0}
    ============================================================================ */
 const SEED_DATA = {
   meta:{
-    source:"PAGASA", bulletinNo:"Tropical Cyclone Bulletin (5 PM)",
-    issuedLabel:"5:00 PM · Wed 08 Jul 2026", asOf:"position as of 4 PM",
-    nextBulletin:"11:00 PM · 08 Jul 2026", verifiedNote:"Seed compiled from PAGASA 5 PM bulletin as reported by PAGASA / GMA / Rappler / Philstar."
+    source:"PAGASA", bulletinNo:"Tropical Cyclone Bulletin (8 PM update)",
+    issuedLabel:"8:00 PM · Wed 08 Jul 2026", asOf:"position as of 8 PM",
+    nextBulletin:"11:00 PM · 08 Jul 2026", verifiedNote:"Seed compiled from PAGASA 8 PM bulletin (pagasa.dost.gov.ph). Confirm winds/movement on the 8 PM PDF; exact eye coordinates 17.1°N, 132.7°E are official PAGASA."
   },
   current:{
     name:"INDAY", intl:"BAVI", cat:"Super Typhoon", ninth:"9th PH cyclone of 2026, 2nd for July",
-    positionRef:"1,170 km E of Northern Luzon (inside PAR)",
-    lat:17.8, lon:133.1, latlonExact:false,
+    positionRef:"1,070 km ENE of Southeastern Luzon (inside PAR)",
+    lat:17.1, lon:132.7, latlonExact:true,
     winds:"195 km/h", gust:"240 km/h",
     pressure:"Not specified in latest PAGASA bulletin (930 hPa at 5 AM)",
     movement:"West · 20 km/h", windExtent:"Up to 900 km from center",
     entered:"Entered PAR at 3:00 AM, 08 Jul", landfallPH:"PH landfall unlikely",
-    outlook:"Maintains super-typhoon strength until Thu 09 Jul; may weaken to a typhoon by Thu evening or early Fri morning. Nearest Extreme N. Luzon by Fri 10 Jul; exits PAR Sat 11 Jul; forecast China landfall Sun 12 Jul. Likely stays over the Philippine Sea."
+    outlook:"Maintains super-typhoon strength until Thu 09 Jul; forecast to weaken to a typhoon by Thu evening or early Fri morning. Nearest Extreme N. Luzon by Fri 10 Jul; heads toward the sea north of Taiwan; exits PAR Sat 11 Jul; forecast China landfall Sun 12 Jul. Likely stays over the Philippine Sea."
   },
   /* Forecast waypoints = plotted from PAGASA's DESCRIBED track (approximate). */
   forecast:[
@@ -378,7 +379,7 @@ const SEED_DATA = {
     note:"Rainfall = PAGASA TC rainfall (Batanes) + PAGASA 3-day Southwest Monsoon outlook. Floods and landslides are likely."
   },
   marine:{
-    galeWarning:"Gale Warning No. 2 (issued 5:00 PM) — northern & eastern seaboards of Luzon, and the eastern seaboard of Visayas.",
+    galeWarning:"Gale Warning No. 2 in effect (issued 5:00 PM) — northern & eastern seaboards of Luzon, and the eastern seaboard of Visayas.",
     waves:[
       {h:"Up to 5.0 m", where:"Seaboard of Isabela; eastern seaboards of Batanes and Cagayan incl. Babuyan Islands"},
       {h:"Up to 4.5 m", where:"Seaboard of Camarines Norte; remaining seaboards of Batanes & Cagayan incl. Babuyan Is.; northern seaboards of Aurora, Camarines Sur & Eastern Samar"}
@@ -389,14 +390,14 @@ const SEED_DATA = {
     himawari:"JMA Himawari-9 (real-time, ~10-min)", base:"Esri World Imagery (Maxar/Earthstar) satellite base",
     note:"Satellite imagery is visual context only. Cloud position/appearance must not be used to infer storm movement — the official center and track come from PAGASA."
   },
-  /* Seed change log = PAGASA 5 AM -> 5 PM (08 Jul). Live diffs are prepended on fetch. */
+  /* Seed change log = PAGASA 5 PM -> 8 PM (08 Jul). Live diffs are prepended on fetch. */
   changeLog:[
-    {t:"Winds", from:"185 km/h", to:"195 km/h", dir:"up"},
-    {t:"Gusts", from:"230 km/h", to:"240 km/h", dir:"up"},
-    {t:"Position", from:"1,405 km E of N. Luzon (5 AM)", to:"1,170 km E of N. Luzon (5 PM)", dir:"up"},
-    {t:"Movement", from:"W · 25 km/h", to:"W · 20 km/h", dir:"dn"},
-    {t:"Gale Warning", from:"No. 1", to:"No. 2 (waves up to 5.0 m)", dir:"up"},
-    {t:"TCWS", from:"7 areas", to:"expanded (incl. northern Abra)", dir:"up"}
+    {t:"Position", from:"1,170 km E of N. Luzon (5 PM)", to:"1,070 km ENE of SE Luzon (8 PM)", dir:"up"},
+    {t:"Eye coordinates", from:"not published (derived)", to:"17.1°N, 132.7°E (exact, PAGASA)", dir:"up"},
+    {t:"Winds / Gusts", from:"195 / 240 km/h", to:"195 / 240 km/h (maintained)", dir:"dn"},
+    {t:"Weakening window", from:"by Thu evening", to:"by Thu evening or Fri early morning", dir:"dn"},
+    {t:"Gale Warning", from:"No. 2", to:"No. 2 in effect (waves up to 5.0 m)", dir:"up"},
+    {t:"TCWS", from:"12 areas", to:"12 areas, Signal No. 1 (highest possible 2–3)", dir:"dn"}
   ]
 };
 
@@ -462,7 +463,7 @@ function deliveryRisk(dist){
    [SECTION E] LEAFLET MAP + SATELLITE LAYERS
    >>> WHERE SATELLITE IMAGE URLs ARE LOADED <<<
    ============================================================================ */
-let map, stormLayer, himaLayer=null, himaOK=false, layerControl=null;
+let map, stormLayer, himaLayer=null, himaOK=false, layerControl=null, svgMode=false;
 /* Himawari real-time LOOP state (play/pause animation of the last N frames) */
 let hima={ frames:[], group:null, idx:0, timer:null, playing:false, speed:700, opacity:0.72, N:12 };
 const ESRI_IMAGERY = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
@@ -851,9 +852,10 @@ function render(d){
   document.getElementById('cPres').textContent=(d.current.pressure||'—').match(/\d{3}/)?d.current.pressure.match(/\d{3}/)[0]:'n/s';
   document.getElementById('cMove').textContent=(d.current.movement||'—').replace('West','W').replace(' · ',' ').replace(' km/h','');
   document.getElementById('stBulletin').textContent=d.meta.issuedLabel;
+  showBulletinAge(d.meta.issuedLabel);
   renderPanel1(d);renderPanel2(d,himaOK);renderPanel3(d);renderPanel4(d);renderPanel5(d);
   renderPanel6(d);renderPanel7(d);renderPanel8(d);renderPanel9(d);renderPanel10(d);
-  renderStorm(d);
+  if(svgMode) drawSVGMap(d); else renderStorm(d);
 }
 
 /* ============================================================================
@@ -864,6 +866,25 @@ let CURRENT = SEED_DATA;           // last verified data (starts as embedded see
 function setStatus(txt,ok){const dot=document.getElementById('stDot');
   dot.className='dot'+(ok?'':' warn'); document.getElementById('stSource').textContent=txt;}
 function updateChecked(){document.getElementById('stChecked').textContent=new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});}
+/* Parse issuedLabel (e.g. "5:00 AM · 09 Jul 2026") and flag a stale bulletin.
+   PAGASA issues every 6 h (3 h when signals are up); >7 h old => amber warning. */
+const _MON={jan:0,feb:1,mar:2,apr:3,may:4,jun:5,jul:6,aug:7,sep:8,oct:9,nov:10,dec:11};
+function showBulletinAge(label){
+  const el=document.getElementById('stAge'); if(!el) return;
+  try{
+    const m=String(label).match(/(\d{1,2}):(\d{2})\s*(AM|PM).*?(\d{1,2})\s+([A-Za-z]{3,})\s+(\d{4})/i);
+    if(!m){ el.textContent=''; return; }
+    let hh=+m[1]%12; if(/pm/i.test(m[3])) hh+=12;
+    const dt=new Date(+m[6], _MON[m[5].slice(0,3).toLowerCase()], +m[4], hh, +m[2]);
+    const hrs=(Date.now()-dt.getTime())/3600000;
+    if(isNaN(hrs)||hrs<0){ el.textContent=''; return; }
+    const txt = hrs<1 ? Math.round(hrs*60)+' min old' : hrs.toFixed(1).replace('.0','')+' h old';
+    const stale = hrs>7;
+    el.innerHTML = (stale?'⚠ ':'')+'Bulletin '+txt+(stale?' — check for a newer PAGASA update':'');
+    el.style.color = stale ? 'var(--amber)' : 'var(--muted-2)';
+    el.style.fontWeight = stale ? '700' : '400';
+  }catch(e){ el.textContent=''; }
+}
 function flashUpdate(){const f=document.getElementById('stFlash');f.classList.add('on');setTimeout(()=>f.classList.remove('on'),6000);}
 
 function diffData(oldD,newD){
@@ -881,7 +902,8 @@ function diffData(oldD,newD){
 
 async function fetchLatest(manual){
   try{
-    const r=await fetch('latest_inday_pagasa.json',{cache:'no-store'});
+    // cache-bust with a timestamp so GitHub Pages / CDN edge caches can't serve a stale file
+    const r=await fetch('latest_inday_pagasa.json?t='+Date.now(),{cache:'no-store'});
     if(!r.ok) throw new Error('HTTP '+r.status);
     const data=await r.json();
     const changes=diffData(CURRENT,data);
@@ -895,33 +917,108 @@ async function fetchLatest(manual){
 }
 
 /* ============================================================================
-   [SECTION H] BOOT
+   [SECTION H] BOOT  — resilient loader
+   Tries to load Leaflet from several CDNs. If none reach (e.g. a restricted
+   preview sandbox), falls back to a SELF-CONTAINED SVG coordinate map that
+   still plots the PAGASA track, PAR box and CPF hubs — never a blank box.
    ============================================================================ */
+function loadScript(src){return new Promise((res,rej)=>{const s=document.createElement('script');
+  s.src=src;s.async=true;s.onload=()=>res(src);s.onerror=()=>rej(new Error('blocked '+src));document.head.appendChild(s);});}
+async function ensureLeaflet(){
+  if(window.L) return true;
+  const cdns=[
+    'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js',
+    'https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js',
+    'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'
+  ];
+  for(const u of cdns){ try{ await loadScript(u); if(window.L) return true; }catch(e){ /* try next */ } }
+  return !!window.L;
+}
+
+/* ---- SELF-CONTAINED SVG FALLBACK MAP (no network, geographically plotted) ---- */
+/* Every element is drawn at true lat/long via equirectangular projection.
+   No coastlines are invented — orientation comes from an accurate lat/long
+   graticule, the PAR box, labelled seas/regions and plotted city hubs.        */
+const SVGB={lonMin:112,lonMax:141,latMin:2,latMax:28,W:1000,H:0};
+SVGB.H=Math.round(SVGB.W*(SVGB.latMax-SVGB.latMin)/(SVGB.lonMax-SVGB.lonMin));
+function pjx(lon){return (lon-SVGB.lonMin)/(SVGB.lonMax-SVGB.lonMin)*SVGB.W;}
+function pjy(lat){return (SVGB.latMax-lat)/(SVGB.latMax-SVGB.latMin)*SVGB.H;}
+function drawSVGMap(d){
+  svgMode=true;
+  const cont=document.getElementById('map'); if(!cont) return;
+  const c=d.current; const px=pjx, py=pjy;
+  let g='';
+  // graticule every 5°
+  for(let lo=115;lo<=140;lo+=5){ g+='<line x1="'+px(lo)+'" y1="0" x2="'+px(lo)+'" y2="'+SVGB.H+'" stroke="#1c3550" stroke-width="1"/>'+
+    '<text x="'+(px(lo)+3)+'" y="'+(SVGB.H-6)+'" fill="#41618a" font-size="12" font-family="IBM Plex Mono,monospace">'+lo+'°E</text>'; }
+  for(let la=5;la<=25;la+=5){ g+='<line x1="0" y1="'+py(la)+'" x2="'+SVGB.W+'" y2="'+py(la)+'" stroke="#1c3550" stroke-width="1"/>'+
+    '<text x="4" y="'+(py(la)-4)+'" fill="#41618a" font-size="12" font-family="IBM Plex Mono,monospace">'+la+'°N</text>'; }
+  // PAR polygon
+  let par=(d.par||[]).map(p=>px(p[1])+','+py(p[0])).join(' ');
+  g+='<polygon points="'+par+'" fill="none" stroke="#35C4D7" stroke-width="2" stroke-dasharray="9 7"/>';
+  g+='<text x="'+px(133.5)+'" y="'+py(7)+'" fill="#35C4D7" font-size="13" font-family="Oswald,sans-serif" opacity="0.85">PAR BOUNDARY</text>';
+  // region / sea labels
+  REGIONS.forEach(r=>{ g+='<text x="'+px(r.lon)+'" y="'+py(r.lat)+'" fill="'+(r.sea?'#7fd0e0':'#e7d6a6')+'" '+
+    'font-size="'+(r.sea?12:13)+'" font-family="Oswald,sans-serif" text-anchor="middle" '+(r.sea?'font-style="italic" opacity="0.85"':'opacity="0.9"')+'>'+r.t+'</text>'; });
+  // wind extent (approx circle) from PAGASA
+  const km=parseWindExtentKm(c.windExtent);
+  if(km){ const r=(km/111)*(SVGB.H/(SVGB.latMax-SVGB.latMin));
+    g+='<circle cx="'+px(c.lon)+'" cy="'+py(c.lat)+'" r="'+r.toFixed(0)+'" fill="#F4A62A" fill-opacity="0.08" stroke="#F4A62A" stroke-opacity="0.5" stroke-width="1.5"/>'; }
+  // forecast track
+  let tr=[[c.lat,c.lon]].concat(d.forecast.map(p=>[p.lat,p.lon])).map(p=>px(p[1])+','+py(p[0])).join(' ');
+  g+='<polyline points="'+tr+'" fill="none" stroke="#FF8A3D" stroke-width="3" stroke-dasharray="10 8"/>';
+  // forecast points
+  d.forecast.forEach(p=>{ g+='<circle cx="'+px(p.lon)+'" cy="'+py(p.lat)+'" r="6" fill="#FF8A3D" stroke="#fff" stroke-width="2"><title>'+
+    p.when+' — '+p.ref+' ('+p.lat.toFixed(1)+'°N, '+p.lon.toFixed(1)+'°E)</title></circle>'+
+    '<text x="'+(px(p.lon)+9)+'" y="'+(py(p.lat)+4)+'" fill="#ffd8b0" font-size="11" font-family="IBM Plex Mono,monospace">'+p.label+'</text>'; });
+  // CPF hubs
+  HUBS.forEach(h=>{ g+='<circle cx="'+px(h.lon)+'" cy="'+py(h.lat)+'" r="'+(h.top?7:5)+'" fill="#159A3C" stroke="'+(h.top?'#E63946':'#fff')+'" stroke-width="'+(h.top?3:1.4)+'"><title>CPF · '+h.name+' ('+h.area+')</title></circle>'; });
+  // current center (pulsing)
+  g+='<circle cx="'+px(c.lon)+'" cy="'+py(c.lat)+'" r="16" fill="#E63946" fill-opacity="0.25"><animate attributeName="r" values="10;26;10" dur="1.8s" repeatCount="indefinite"/><animate attributeName="fill-opacity" values="0.4;0;0.4" dur="1.8s" repeatCount="indefinite"/></circle>';
+  g+='<circle cx="'+px(c.lon)+'" cy="'+py(c.lat)+'" r="8" fill="#E63946" stroke="#fff" stroke-width="2.5"><title>Super Typhoon INDAY — '+c.positionRef+'</title></circle>';
+  g+='<text x="'+(px(c.lon)+13)+'" y="'+(py(c.lat)-9)+'" fill="#fff" font-size="14" font-family="Oswald,sans-serif" font-weight="700">INDAY</text>';
+  // caption
+  g+='<text x="12" y="24" fill="#9db8d0" font-size="13" font-family="Oswald,sans-serif">COORDINATE LOCATOR — no basemap tiles in this view</text>';
+  g+='<text x="12" y="42" fill="#5f7891" font-size="11" font-family="Inter,sans-serif">Track, PAR &amp; hubs plotted from PAGASA lat/long. Host the file (see README) to load Esri/Himawari satellite imagery.</text>';
+
+  cont.innerHTML='<svg viewBox="0 0 '+SVGB.W+' '+SVGB.H+'" preserveAspectRatio="xMidYMid meet" '+
+    'style="width:100%;height:100%;display:block;background:radial-gradient(circle at 60% 40%,#0d2136,#081019)">'+g+'</svg>';
+  // adjust overlays for fallback mode
+  document.getElementById('satWarn').classList.add('on');
+  const disc=document.querySelector('.ov-disclaimer'); if(disc) disc.style.display='none';
+  const lc=document.getElementById('loopCtl'); if(lc) lc.style.display='none';
+}
+
 function boot(){
-  try{
-    if(typeof L==='undefined') throw new Error('Leaflet failed to load');
-    initMap();
-    // Himawari loop controls
-    document.getElementById('loopPlay').addEventListener('click',toggleLoop);
-    document.getElementById('loopPrev').addEventListener('click',()=>{pause();showFrame(hima.idx-1);});
-    document.getElementById('loopNext').addEventListener('click',()=>{pause();showFrame(hima.idx+1);});
-    document.getElementById('loopSlider').addEventListener('input',e=>{pause();showFrame(+e.target.value);});
-    document.getElementById('loopSpeed').addEventListener('click',cycleSpeed);
-    document.getElementById('loopReload').addEventListener('click',()=>loadHimawari());
-    startHimaRefresh();
-    render(CURRENT);                 // paint from seed immediately
-    setStatus('embedded seed',true); updateChecked();
-    fetchLatest();                   // try live JSON
-    setInterval(fetchLatest, 5*60*1000);   // every 5 minutes
-    setTimeout(()=>{const b=document.getElementById('boot');if(b){b.style.opacity='0';setTimeout(()=>b.remove(),500);}},700);
-    setTimeout(()=>{ if(map) map.invalidateSize(); }, 900);  // fix mobile sizing
-    window.addEventListener('resize',()=>{ if(map) map.invalidateSize(); });
-  }catch(err){
-    console.error(err);
-    const b=document.getElementById('boot'); if(b) b.remove();
-    document.getElementById('satWarn').classList.add('on');
-    render(CURRENT);  // panels still render even if map engine fails
-  }
+  // paint panels immediately (independent of the map engine)
+  render(CURRENT);
+  setStatus('embedded seed',true); updateChecked();
+  fetchLatest(); setInterval(fetchLatest, 5*60*1000);   // live JSON every 5 min
+
+  ensureLeaflet().then(okL=>{
+    try{
+      if(okL){
+        initMap();
+        document.getElementById('loopPlay').addEventListener('click',toggleLoop);
+        document.getElementById('loopPrev').addEventListener('click',()=>{pause();showFrame(hima.idx-1);});
+        document.getElementById('loopNext').addEventListener('click',()=>{pause();showFrame(hima.idx+1);});
+        document.getElementById('loopSlider').addEventListener('input',e=>{pause();showFrame(+e.target.value);});
+        document.getElementById('loopSpeed').addEventListener('click',cycleSpeed);
+        document.getElementById('loopReload').addEventListener('click',()=>loadHimawari());
+        startHimaRefresh();
+        renderStorm(CURRENT);                       // draw vectors (show even if tiles are blocked)
+        setTimeout(()=>{ if(map) map.invalidateSize(); }, 900);
+        window.addEventListener('resize',()=>{ if(map) map.invalidateSize(); });
+      }else{
+        // Map engine could not load at all -> self-contained SVG coordinate map.
+        drawSVGMap(CURRENT);
+      }
+    }catch(err){
+      console.warn('Map init issue — using SVG fallback:',err.message);
+      drawSVGMap(CURRENT);
+    }
+    const b=document.getElementById('boot'); if(b){ b.style.opacity='0'; setTimeout(()=>b.remove(),500); }
+  });
 }
 /* accordion */
 document.addEventListener('click',e=>{const h=e.target.closest('.panel > .p-hd');if(h)h.parentElement.classList.toggle('open');});
