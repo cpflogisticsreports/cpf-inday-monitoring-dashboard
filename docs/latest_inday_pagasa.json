@@ -1,87 +1,97 @@
 {
-  "last_checked": "2026-07-09T08:50:35+00:00",
+  "last_checked": "2026-07-09T12:55:00+08:00",
   "latest_pagasa_update": {
     "source_type": "TCB",
-    "number": "Tropical Cyclone Bulletin No. 8",
-    "issued_at": "5:00 PM, 09 July 2026",
-    "valid_until": "the next bulletin at 11:00 PM today",
-    "source_url": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%238_inday.pdf"
+    "number": "Tropical Cyclone Bulletin No. 7",
+    "issued_at": "11:00 AM, 09 July 2026",
+    "valid_until": "next bulletin at 5:00 PM today",
+    "source_url": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%237_inday.pdf"
   },
   "storm": {
     "name": "INDAY",
     "international_name": "BAVI",
     "category": "Typhoon",
-    "current_center_time": "4:00 PM",
-    "lat": 18.7,
-    "lon": 129.0,
-    "position_description": "780 km East of Aparri, Cagayan",
+    "current_center_time": "10:00 AM",
+    "lat": 18.4,
+    "lon": 129.8,
+    "position_description": "865 km East of Northern Luzon",
     "max_winds_kmh": 165,
     "gustiness_kmh": 205,
     "central_pressure_hpa": 945,
-    "movement": "West Northwestward at 20 km/h",
-    "movement_speed_kmh": 20,
-    "wind_extent_km": 860
+    "movement": "Northwestward at 15 km/h",
+    "movement_speed_kmh": 15,
+    "wind_extent_km": 870
   },
   "forecast_track": [
     {
       "label": "Current",
-      "forecast_time": "Current: 4:00 PM, 09 July 2026",
-      "lat": 18.7,
-      "lon": 129.0,
-      "position_description": "780 km East of Aparri, Cagayan",
+      "forecast_time": "Current: 10:00 AM, 09 July 2026",
+      "lat": 18.4,
+      "lon": 129.8,
+      "position_description": "865 km East of Northern Luzon",
       "max_winds_kmh": 165,
       "gustiness_kmh": 205,
       "central_pressure_hpa": 945,
       "category": "Typhoon",
-      "movement_direction": "West Northwestward",
-      "movement_speed_kmh": 20
+      "movement_direction": "NW",
+      "movement_speed_kmh": 15
     },
     {
-      "forecast_time": "2:00 AM, 10 July 2026",
-      "lat": 20.1,
-      "lon": 127.6,
-      "position_description": "590 km East of Basco, Batanes",
+      "forecast_time": "8:00 PM, 09 July 2026",
+      "lat": 19.4,
+      "lon": 128.6,
+      "position_description": "750 km East of Calayan, Cagayan",
+      "max_winds_kmh": 165,
+      "category": "Typhoon",
+      "movement_direction": "NW",
+      "movement_speed_kmh": 15
+    },
+    {
+      "forecast_time": "8:00 AM, 10 July 2026",
+      "lat": 21.1,
+      "lon": 126.7,
+      "position_description": "505 km East of Itbayat, Batanes",
+      "max_winds_kmh": 165,
+      "category": "Typhoon",
+      "movement_direction": "NW",
+      "movement_speed_kmh": 25
+    },
+    {
+      "forecast_time": "8:00 PM, 10 July 2026",
+      "lat": 22.7,
+      "lon": 125.2,
+      "position_description": "410 km East Northeast of Itbayat, Batanes",
       "max_winds_kmh": 165,
       "category": "Typhoon",
       "movement_direction": "NW",
       "movement_speed_kmh": 20
     },
     {
-      "forecast_time": "2:00 PM, 10 July 2026",
-      "lat": 21.7,
-      "lon": 126.1,
-      "position_description": "455 km East Northeast of Itbayat, Batanes",
-      "max_winds_kmh": 165,
+      "forecast_time": "8:00 AM, 11 July 2026",
+      "lat": 24.9,
+      "lon": 122.8,
+      "position_description": "470 km North Northeast of Itbayat, Batanes",
+      "max_winds_kmh": 155,
       "category": "Typhoon",
       "movement_direction": "NW",
-      "movement_speed_kmh": 20
+      "movement_speed_kmh": 30
     },
     {
-      "forecast_time": "2:00 AM, 11 July 2026",
-      "lat": 23.7,
-      "lon": 124.1,
-      "position_description": "400 km Northeast of Itbayat, Batanes",
-      "max_winds_kmh": 155,
+      "forecast_time": "8:00 PM, 11 July 2026",
+      "lat": 26.3,
+      "lon": 120.5,
+      "position_description": "630 km North Northwest of Itbayat, Batanes (OUTSIDE PAR)",
+      "max_winds_kmh": 140,
       "category": "Typhoon",
       "movement_direction": "NW",
       "movement_speed_kmh": 25
     },
     {
-      "forecast_time": "2:00 PM, 11 July 2026",
-      "lat": 25.6,
-      "lon": 121.9,
-      "position_description": "535 km North of Itbayat, Batanes (OUTSIDE PAR)",
-      "max_winds_kmh": 155,
-      "category": "Typhoon",
-      "movement_direction": "NW",
-      "movement_speed_kmh": 25
-    },
-    {
-      "forecast_time": "2:00 AM, 12 July 2026",
-      "lat": 27.7,
-      "lon": 119.2,
-      "position_description": "815 km North Northwest of Extreme Northern Luzon or in the vicinity of Zhejiang, China (OUTSIDE PAR)",
-      "max_winds_kmh": 110,
+      "forecast_time": "8:00 AM, 12 July 2026",
+      "lat": 28.3,
+      "lon": 117.9,
+      "position_description": "925 km North Northwest of Extreme Northern Luzon or in the vicinity of Jiangxi, China (OUTSIDE PAR)",
+      "max_winds_kmh": 100,
       "category": "Severe Tropical Storm",
       "movement_direction": "NW",
       "movement_speed_kmh": 30
@@ -89,24 +99,89 @@
   ],
   "tcws": [
     {
+      "signal": "TCWS No. 2",
+      "areas_raw": "Batanes",
+      "wind_range_kmh": "62–88",
+      "potential_impact": "Minor to moderate threat to life and property."
+    },
+    {
       "signal": "TCWS No. 1",
-      "areas_raw": "The rest of Cagayan including the rest of Babuyan Islands, Isabela, the northeastern portion of Quirino (Maddela), Apayao, the northern portion of Abra (Tineg, Lagayan, Danglas, San Juan, Lagangilang, Licuan-Baay, Malibcong, Lacub, Daguioman, Dolores, La Paz), Kalinga, the eastern portion of Mountain Province (Natonin, Paracelis), the eastern portion of Ifugao (Aguinaldo, Alfonso Lista), Ilocos Norte, the northern portion of Aurora (Dilasag, Casiguran), and the northern and central portions of Catanduanes (Pandan, Caramoran, Bagamanoc, Panganiban, Viga, Gigmoto, Baras, San Miguel)",
+      "areas_raw": "Cagayan including Babuyan Islands, Isabela, northeastern Quirino (Maddela), Apayao, northern Abra, Kalinga, eastern Mountain Province, eastern Ifugao, Ilocos Norte, northern Aurora, and northern/central Catanduanes.",
       "wind_range_kmh": "39–61",
       "potential_impact": "Minimal to minor threat to life and property."
     }
   ],
   "rainfall": [
     {
-      "source": "Weather Advisory",
-      "issued_at": "",
-      "details_raw": ""
+      "source": "Weather Advisory No. 12",
+      "issued_at": "11:00 AM, 09 July 2026",
+      "period": "Today to tomorrow noon (July 10)",
+      "cause": "Southwest Monsoon",
+      "amount": "100–200 mm",
+      "areas": "Occidental Mindoro and Antique",
+      "risk": "Numerous flooding events likely; landslides likely in moderate to highly susceptible areas."
+    },
+    {
+      "source": "Weather Advisory No. 12",
+      "issued_at": "11:00 AM, 09 July 2026",
+      "period": "Today to tomorrow noon (July 10)",
+      "cause": "Southwest Monsoon",
+      "amount": "50–100 mm",
+      "areas": "Occidental Mindoro, Antique, Negros Occidental, Zamboanga del Sur, Lanao del Norte, and Lanao del Sur",
+      "risk": "Localized flooding possible; landslides possible in highly susceptible areas."
+    },
+    {
+      "source": "Weather Advisory No. 12",
+      "issued_at": "11:00 AM, 09 July 2026",
+      "period": "Tomorrow noon to Saturday noon (July 11)",
+      "cause": "Tropical Cyclone INDAY",
+      "amount": "50–100 mm",
+      "areas": "Batanes",
+      "risk": "Localized flooding possible; landslides possible in highly susceptible areas."
+    },
+    {
+      "source": "Weather Advisory No. 12",
+      "issued_at": "11:00 AM, 09 July 2026",
+      "period": "Tomorrow noon to Saturday noon (July 11)",
+      "cause": "Southwest Monsoon",
+      "amount": "100–200 mm",
+      "areas": "Occidental Mindoro, Zambales, and Bataan",
+      "risk": "Numerous flooding events likely; landslides likely in moderate to highly susceptible areas."
+    },
+    {
+      "source": "Weather Advisory No. 12",
+      "issued_at": "11:00 AM, 09 July 2026",
+      "period": "Tomorrow noon to Saturday noon (July 11)",
+      "cause": "Southwest Monsoon",
+      "amount": "50–100 mm",
+      "areas": "Zambales, Bataan, Cavite, Batangas, Oriental Mindoro, Romblon, Palawan, Aklan, Capiz, Iloilo, Guimaras, Negros Occidental, Negros Oriental, Zamboanga del Sur, Lanao del Norte, and Lanao del Sur",
+      "risk": "Localized flooding possible; landslides possible in highly susceptible areas."
+    },
+    {
+      "source": "Weather Advisory No. 12",
+      "issued_at": "11:00 AM, 09 July 2026",
+      "period": "Saturday noon to Sunday noon (July 12)",
+      "cause": "Southwest Monsoon",
+      "amount": "50–100 mm",
+      "areas": "Pangasinan, La Union, Tarlac, Pampanga, Bulacan, Metro Manila, Rizal, Cavite, Batangas, Oriental Mindoro, Romblon, Palawan, Aklan, and Antique",
+      "risk": "Localized flooding possible; landslides possible in highly susceptible areas."
     }
   ],
   "marine": [
     {
-      "source": "Gale Warning",
-      "issued_at": "11:00 AM Today, 09 July 2026",
-      "details_raw": "MMSS-02 Rev.1/24-06-2024 Republic of the PhilippinesDEPARTMENT OF SCIENCE AND TECHNOLOGYPhilippine Atmospheric, Geophysical and AstronomicalServices Administration (PAGASA)Weather Division GALE WARNING NR. 4A For: Strong to Gale-Force winds associated with Tropical Cyclone \"INDAY\" {BAVI} Issued at 11:00 AM Today, 09 July 2026 Valid for broadcast until the next warning at 05:00 PM today Strong to Gale-Force winds are prevailing or expected to affect the following areas: Seaboards Weather Winds (km/h / kt) Sea Condition Wave Height THE NORTHERN AND EASTERN SEABOARDS OF LUZON (Batanes, the northern and eastern coasts of Cagayan {Buguey, Santa Teresita, Gonzaga, Santa Ana, Gattaran, Lal-Lo, Baggao, Peñablanca} including Babuyan Islands, Isabela, Aurora, and the northern and eastern coasts of Catanduanes {Caramoran, Pandan, Viga, Bagamanoc, Panganiban, Gigmoto}) Rains with gusty winds (45-68) / (29-36) rough to very rough 2.8-5.0 m THE EASTERN SEABOARDS OF SOUTHERN LUZON AND VISAYAS (Pollilo Islands {the northern coast of Panukulan, Burdeos, the eastern coast of Patnanungan, and the northern and eastern coasts of Jomalig}, the eastern coast of Camarines Norte {Jose Panganiban, Capalonga, Paracale, Vinzons, Talisay, Daet, Mercedes, Basud}, the northern coast of Camarines Sur {Siruma, Tinambac, Lagonoy, Garchitorena, Caramoan}, and the northern and eastern coast of Northern Samar {Laoang, Palapag, Mapanas, Gamay, Lapinig}) Cloudy skies with scattered rains and thunderstorms (45-63) / (24-34) rough to very rough 2.8-4.5 m Warnings are for sea areas within 30 nautical miles from the coast. Sea travel is risky for small seacrafts (including all motor bancas of any type or tonnage). Mariners of these vessels are advised to remain in port or seek safe harbor. For larger vessels, operating in these conditions required experience and properly equipped vessels. Vessel masters, boat captains, ship owners / operators, and Coast Guard units concerned are advised to take appropriate measures to ensure safety of life at sea. Unless there is an intermediate issuance, the next warning will be issued at 05:00 PM today Prepared by:LDG Checked by:MAGGE (02) 8284-08-00 local 4801 www.pagasa.dost.gov.ph \"Tracking the sky... helping the country.\" Weather and Flood Forecasting Center Senator Miriam P. Defensor-Santiago AvenueBrgy. Central, Quezon City, Philippines 1100"
+      "source": "Gale Warning No. 4A / TCB No. 7",
+      "issued_at": "11:00 AM, 09 July 2026",
+      "valid_until": "next warning at 5:00 PM today",
+      "affected_seaboards_raw": "Northern and eastern seaboards of Luzon and eastern seaboard of Visayas. Very rough seas up to 6.0 m over Batanes, northern/eastern Babuyan Islands, and northeastern mainland Cagayan; up to 5.0 m over remaining mainland Cagayan/Babuyan Islands and Isabela; up to 4.5 m over Aurora, Camarines Norte, Polillo Islands, Camarines Sur, Catanduanes, eastern Northern Samar, northeastern Eastern Samar, and northern Ilocos Norte.",
+      "wind_speed_kmh_raw": [
+        "45–68 km/h",
+        "45–63 km/h"
+      ],
+      "wave_height_m_raw": [
+        "2.8–5.0 m",
+        "2.8–4.5 m",
+        "up to 6.0 m"
+      ]
     }
   ],
   "regional_advisories": [],
@@ -157,72 +232,77 @@
   "cpf_risk_matrix": [
     {
       "area_route": "Batanes / Extreme Northern Luzon",
-      "commodity_affected": "All dispatch",
-      "main_hazard": "TCWS No. 2; gale-force winds; very rough seas",
+      "commodity_affected": "All dispatch, inter-island/marine-dependent movement, feeds and support trips",
+      "main_hazard": "TCWS No. 2; gale-force winds; very rough seas up to 6.0 m",
       "risk_level": "Critical",
       "recommended_dispatch_action": "Suspend dispatch until further notice",
-      "remarks": "Do not release trips without official clearance and validated safe passage."
+      "remarks": "Do not release trips toward Batanes/exposed coastal routes without official clearance and validated safe passage."
     },
     {
       "area_route": "Cagayan, Babuyan Islands, Isabela, Apayao, Ilocos Norte, northern Aurora, Catanduanes",
-      "commodity_affected": "Feeds, live animals, RM transfers",
-      "main_hazard": "TCWS No. 1; strong winds; exposed coastal/upland risk",
+      "commodity_affected": "Feeds, silo/bulk feeds, live animals, RM transfers",
+      "main_hazard": "TCWS No. 1; strong winds; exposed coastal/upland route risk",
       "risk_level": "High",
       "recommended_dispatch_action": "Require route validation before dispatch",
-      "remarks": "Validate road passability, wind exposure, receiving readiness, GPS status, and contractor readiness."
+      "remarks": "Validate road passability, wind exposure, receiving readiness, GPS status, and contractor readiness before release."
     },
     {
       "area_route": "Northern/eastern seaboards of Luzon and eastern Visayas",
-      "commodity_affected": "Sea/RORO-dependent transfers, containers",
-      "main_hazard": "Gale warning; rough to very rough seas",
+      "commodity_affected": "Sea/RORO-dependent transfers, containers, inter-island deliveries",
+      "main_hazard": "Gale Warning No. 4A; rough to very rough seas",
       "risk_level": "Critical",
       "recommended_dispatch_action": "Hold dispatch",
       "remarks": "Hold small seacraft/motorbanca-dependent movement; validate larger vessels with Coast Guard, ports, and shipping lines."
     },
     {
-      "area_route": "Central Luzon, NCR/CALABARZON, Visayas and Mindanao routes not under hold/suspension",
-      "commodity_affected": "All commodities",
-      "main_hazard": "Habagat/rain/gust exposure and local passability changes",
+      "area_route": "Gerona / Tarlac hub and Central Luzon outbound routes",
+      "commodity_affected": "Feeds, food, RM, livestock support",
+      "main_hazard": "Downstream wind, rain, and marine advisory exposure",
       "risk_level": "Moderate",
       "recommended_dispatch_action": "Dispatch with caution",
-      "remarks": "Coordinate route validation and update Affected Delivery Updates file."
+      "remarks": "Coordinate route validation for affected corridors; update Affected Delivery Updates file."
     }
   ],
   "dispatch_recommendations": [
     {
       "action": "Suspend dispatch until further notice",
       "area": "Batanes / Extreme Northern Luzon",
-      "reason": "TCWS No. 2; gale-force winds; very rough seas"
+      "reason": "TCWS No. 2 and very rough seas."
     },
     {
       "action": "Require route validation before dispatch",
-      "area": "Cagayan, Babuyan Islands, Isabela, Apayao, Ilocos Norte, northern Aurora, Catanduanes",
-      "reason": "TCWS No. 1; strong winds; exposed coastal/upland risk"
+      "area": "Cagayan, Isabela, Ilocos Norte, northern Aurora, Catanduanes and listed TCWS No. 1 areas",
+      "reason": "Strong wind and exposed coastal/upland risk."
     },
     {
       "action": "Hold dispatch",
-      "area": "Northern/eastern seaboards of Luzon and eastern Visayas",
-      "reason": "Gale warning; rough to very rough seas"
+      "area": "Northern/eastern Luzon and eastern Visayas seaboards",
+      "reason": "Gale Warning No. 4A; rough to very rough seas."
     },
     {
       "action": "Dispatch with caution",
       "area": "Central Luzon, NCR/CALABARZON, Visayas and Mindanao routes not under hold/suspension",
-      "reason": "Habagat/rain/gust exposure and local passability changes"
+      "reason": "Habagat/rain/gust exposure and local passability changes."
     }
   ],
-  "contractor_advisory": "All freight contractors must validate route, weather, road, bridge, and port conditions before dispatch. Keep GPS active and report flooding, landslides, road closures, port cancellations, strong winds, route deviations, or delays immediately.",
+  "contractor_advisory": "All freight contractors must validate route, weather, road, bridge, and port conditions before dispatch. Keep GPS active, confirm driver/helper readiness, secure cargo, and report flooding, landslides, road closures, port cancellations, low visibility, strong winds, route deviations, vehicle issues, or delivery delays immediately. Do not proceed through unsafe flooded, landslide-prone, wind-exposed, or port-restricted routes without CPF Logistics clearance.",
   "change_log": [
-    "Bulletin updated: Tropical Cyclone Bulletin No. 7 → Tropical Cyclone Bulletin No. 8",
-    "Movement changed: Northwestward at 15 km/h → West Northwestward at 20 km/h",
-    "Wind extent changed: 870 → 860"
+    "Updated to PAGASA Tropical Cyclone Bulletin No. 7 issued 11:00 AM, 09 July 2026.",
+    "INDAY slightly weakened while moving northwestward over the Philippine Sea.",
+    "Maximum sustained winds changed to 165 km/h; gustiness changed to 205 km/h; pressure changed to 945 hPa.",
+    "Current center moved to 18.4°N, 129.8°E, 865 km East of Northern Luzon.",
+    "Movement changed to northwestward at 15 km/h.",
+    "TCWS No. 2 is now in effect over Batanes; TCWS No. 1 remains over listed areas.",
+    "Weather Advisory updated to No. 12 and Gale Warning updated to No. 4A."
   ],
   "source_urls": {
-    "tcb": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%238_inday.pdf",
+    "tcb": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%237_inday.pdf",
     "weather_advisory": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/advisory.pdf",
     "gale": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/gale.pdf"
   },
   "reliability_notes": [
     "PAGASA is the official source of truth.",
-    "Satellite imagery is visual context only and must not override PAGASA values."
+    "Satellite imagery is visual context only and must not override PAGASA values.",
+    "Forecast cone is not plotted unless official cone geometry is available."
   ]
 }
