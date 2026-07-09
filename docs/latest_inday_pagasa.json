@@ -1,226 +1,25 @@
 {
-  "last_checked": "2026-07-09T10:08:23+00:00",
-  "latest_pagasa_update": {
-    "source_type": "TCB",
-    "number": "Tropical Cyclone Bulletin No. 8",
-    "issued_at": "5:00 PM, 09 July 2026",
-    "valid_until": "the next bulletin at 11:00 PM today",
-    "source_url": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%238_inday.pdf"
-  },
-  "storm": {
-    "name": "INDAY",
-    "international_name": "BAVI",
-    "category": "Typhoon",
-    "current_center_time": "4:00 PM",
-    "lat": 18.7,
-    "lon": 129.0,
-    "position_description": "780 km East of Aparri, Cagayan",
-    "max_winds_kmh": 165,
-    "gustiness_kmh": 205,
-    "central_pressure_hpa": 945,
-    "movement": "West Northwestward at 20 km/h",
-    "movement_speed_kmh": 20,
-    "wind_extent_km": 860
-  },
-  "forecast_track": [
-    {
-      "label": "Current",
-      "forecast_time": "Current: 4:00 PM, 09 July 2026",
-      "lat": 18.7,
-      "lon": 129.0,
-      "position_description": "780 km East of Aparri, Cagayan",
-      "max_winds_kmh": 165,
-      "gustiness_kmh": 205,
-      "central_pressure_hpa": 945,
-      "category": "Typhoon",
-      "movement_direction": "West Northwestward",
-      "movement_speed_kmh": 20
-    },
-    {
-      "forecast_time": "2:00 AM, 10 July 2026",
-      "lat": 20.1,
-      "lon": 127.6,
-      "position_description": "590 km East of Basco, Batanes",
-      "max_winds_kmh": 165,
-      "category": "Typhoon",
-      "movement_direction": "NW",
-      "movement_speed_kmh": 20
-    },
-    {
-      "forecast_time": "2:00 PM, 10 July 2026",
-      "lat": 21.7,
-      "lon": 126.1,
-      "position_description": "455 km East Northeast of Itbayat, Batanes",
-      "max_winds_kmh": 165,
-      "category": "Typhoon",
-      "movement_direction": "NW",
-      "movement_speed_kmh": 20
-    },
-    {
-      "forecast_time": "2:00 AM, 11 July 2026",
-      "lat": 23.7,
-      "lon": 124.1,
-      "position_description": "400 km Northeast of Itbayat, Batanes",
-      "max_winds_kmh": 155,
-      "category": "Typhoon",
-      "movement_direction": "NW",
-      "movement_speed_kmh": 25
-    },
-    {
-      "forecast_time": "2:00 PM, 11 July 2026",
-      "lat": 25.6,
-      "lon": 121.9,
-      "position_description": "535 km North of Itbayat, Batanes (OUTSIDE PAR)",
-      "max_winds_kmh": 155,
-      "category": "Typhoon",
-      "movement_direction": "NW",
-      "movement_speed_kmh": 25
-    },
-    {
-      "forecast_time": "2:00 AM, 12 July 2026",
-      "lat": 27.7,
-      "lon": 119.2,
-      "position_description": "815 km North Northwest of Extreme Northern Luzon or in the vicinity of Zhejiang, China (OUTSIDE PAR)",
-      "max_winds_kmh": 110,
-      "category": "Severe Tropical Storm",
-      "movement_direction": "NW",
-      "movement_speed_kmh": 30
-    }
+  "meta": {"source":"PAGASA","bulletinNo":"Tropical Cyclone Bulletin No. 7","issuedLabel":"11:00 AM · 09 Jul 2026","asOf":"position as of 10 AM","nextBulletin":"5:00 PM · 09 Jul 2026","sourceUrl":"https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin_inday.pdf","verifiedNote":"PAGASA Bulletin No. 7 (11 AM, 09 Jul). Exact current + forecast coordinates."},
+  "current": {"name":"INDAY","intl":"BAVI","cat":"Typhoon","ninth":"9th PH cyclone of 2026, 2nd for July","positionRef":"865 km E of Northern Luzon (inside PAR)","lat":18.4,"lon":129.8,"latlonExact":true,"winds":"165 km/h","gust":"205 km/h","pressure":"Not specified in latest bulletin reproduction (940 hPa at 5 AM)","movement":"Northwest · 15 km/h","windExtent":"Up to 870 km from center","entered":"Entered PAR at 3:00 AM, 08 Jul","landfallPH":"PH landfall unlikely","outlook":"Weakened to a typhoon; Signal No. 2 raised over Batanes. Moves NW over the Philippine Sea, closest to Extreme N. Luzon between Fri 10 Jul evening and Sat 11 Jul morning; near or over N. Taiwan; exits PAR Sat 11 Jul; China (Zhejiang) landfall Sun 12 Jul, weakening to a severe tropical storm inland. PH landfall unlikely."},
+  "forecast": [
+    {"label":"Thu 2PM","when":"09 Jul · 2 PM (Thu)","lat":18.7,"lon":129.2,"latlonExact":true,"ref":"800 km E of Aparri, Cagayan","cat":"Typhoon","winds":"165 km/h","gust":"Not specified in latest PAGASA bulletin","move":"NW · 15 km/h","place":"PAGASA forecast position."},
+    {"label":"Fri 2AM","when":"10 Jul · 2 AM (Fri)","lat":20.0,"lon":127.7,"latlonExact":true,"ref":"600 km E of Basco, Batanes","cat":"Typhoon","winds":"165 km/h","gust":"Not specified in latest PAGASA bulletin","move":"NW · 20 km/h","place":"PAGASA forecast position."},
+    {"label":"Fri 2PM","when":"10 Jul · 2 PM (Fri)","lat":21.7,"lon":126.1,"latlonExact":true,"ref":"455 km ENE of Itbayat, Batanes","cat":"Typhoon","winds":"155 km/h","gust":"Not specified in latest PAGASA bulletin","move":"NW · 20 km/h","place":"Closest approach toward Extreme N. Luzon (offshore)."},
+    {"label":"Sat 2AM","when":"11 Jul · 2 AM (Sat)","lat":23.7,"lon":124.1,"latlonExact":true,"ref":"400 km NE of Itbayat, Batanes","cat":"Typhoon","winds":"150 km/h","gust":"Not specified in latest PAGASA bulletin","move":"NW · 25 km/h","place":"PAGASA forecast position."},
+    {"label":"Sat 2PM","when":"11 Jul · 2 PM (Sat)","lat":25.5,"lon":122.0,"latlonExact":true,"ref":"525 km N of Itbayat, Batanes (OUTSIDE PAR)","cat":"Typhoon","winds":"150 km/h","gust":"Not specified in latest PAGASA bulletin","move":"NW · 25 km/h","place":"Exits PAR; sea north of Taiwan."},
+    {"label":"Sun 2AM","when":"12 Jul · 2 AM (Sun)","lat":27.6,"lon":119.3,"latlonExact":true,"ref":"800 km NNW of Extreme N. Luzon / vicinity of Zhejiang, China (OUTSIDE PAR)","cat":"Severe Tropical Storm","winds":"110 km/h","gust":"Not specified in latest PAGASA bulletin","move":"NW · 30 km/h","place":"Near/over eastern mainland China; weakening."}
   ],
-  "tcws": [
-    {
-      "signal": "TCWS No. 1",
-      "areas_raw": "The rest of Cagayan including the rest of Babuyan Islands, Isabela, the northeastern portion of Quirino (Maddela), Apayao, the northern portion of Abra (Tineg, Lagayan, Danglas, San Juan, Lagangilang, Licuan-Baay, Malibcong, Lacub, Daguioman, Dolores, La Paz), Kalinga, the eastern portion of Mountain Province (Natonin, Paracelis), the eastern portion of Ifugao (Aguinaldo, Alfonso Lista), Ilocos Norte, the northern portion of Aurora (Dilasag, Casiguran), and the northern and central portions of Catanduanes (Pandan, Caramoran, Bagamanoc, Panganiban, Viga, Gigmoto, Baras, San Miguel)",
-      "wind_range_kmh": "39–61",
-      "potential_impact": "Minimal to minor threat to life and property."
-    }
-  ],
-  "rainfall": [
-    {
-      "source": "Weather Advisory",
-      "issued_at": "",
-      "details_raw": ""
-    }
-  ],
-  "marine": [
-    {
-      "source": "Gale Warning",
-      "issued_at": "11:00 AM Today, 09 July 2026",
-      "details_raw": "MMSS-02 Rev.1/24-06-2024 Republic of the PhilippinesDEPARTMENT OF SCIENCE AND TECHNOLOGYPhilippine Atmospheric, Geophysical and AstronomicalServices Administration (PAGASA)Weather Division GALE WARNING NR. 4A For: Strong to Gale-Force winds associated with Tropical Cyclone \"INDAY\" {BAVI} Issued at 11:00 AM Today, 09 July 2026 Valid for broadcast until the next warning at 05:00 PM today Strong to Gale-Force winds are prevailing or expected to affect the following areas: Seaboards Weather Winds (km/h / kt) Sea Condition Wave Height THE NORTHERN AND EASTERN SEABOARDS OF LUZON (Batanes, the northern and eastern coasts of Cagayan {Buguey, Santa Teresita, Gonzaga, Santa Ana, Gattaran, Lal-Lo, Baggao, Peñablanca} including Babuyan Islands, Isabela, Aurora, and the northern and eastern coasts of Catanduanes {Caramoran, Pandan, Viga, Bagamanoc, Panganiban, Gigmoto}) Rains with gusty winds (45-68) / (29-36) rough to very rough 2.8-5.0 m THE EASTERN SEABOARDS OF SOUTHERN LUZON AND VISAYAS (Pollilo Islands {the northern coast of Panukulan, Burdeos, the eastern coast of Patnanungan, and the northern and eastern coasts of Jomalig}, the eastern coast of Camarines Norte {Jose Panganiban, Capalonga, Paracale, Vinzons, Talisay, Daet, Mercedes, Basud}, the northern coast of Camarines Sur {Siruma, Tinambac, Lagonoy, Garchitorena, Caramoan}, and the northern and eastern coast of Northern Samar {Laoang, Palapag, Mapanas, Gamay, Lapinig}) Cloudy skies with scattered rains and thunderstorms (45-63) / (24-34) rough to very rough 2.8-4.5 m Warnings are for sea areas within 30 nautical miles from the coast. Sea travel is risky for small seacrafts (including all motor bancas of any type or tonnage). Mariners of these vessels are advised to remain in port or seek safe harbor. For larger vessels, operating in these conditions required experience and properly equipped vessels. Vessel masters, boat captains, ship owners / operators, and Coast Guard units concerned are advised to take appropriate measures to ensure safety of life at sea. Unless there is an intermediate issuance, the next warning will be issued at 05:00 PM today Prepared by:LDG Checked by:MAGGE (02) 8284-08-00 local 4801 www.pagasa.dost.gov.ph \"Tracking the sky... helping the country.\" Weather and Flood Forecasting Center Senator Miriam P. Defensor-Santiago AvenueBrgy. Central, Quezon City, Philippines 1100"
-    }
-  ],
-  "regional_advisories": [],
-  "cpf_hubs": [
-    {
-      "name": "Gerona Feedmill / Tarlac Hub",
-      "lat": 15.606,
-      "lon": 120.596,
-      "type": "Feedmill"
-    },
-    {
-      "name": "Ilagan Feedmill / Isabela",
-      "lat": 17.148,
-      "lon": 121.889,
-      "type": "Feedmill"
-    },
-    {
-      "name": "Metro Manila / NCR",
-      "lat": 14.5995,
-      "lon": 120.9842,
-      "type": "Delivery area"
-    },
-    {
-      "name": "Cebu",
-      "lat": 10.3157,
-      "lon": 123.8854,
-      "type": "Visayas hub"
-    },
-    {
-      "name": "Davao",
-      "lat": 7.1907,
-      "lon": 125.4553,
-      "type": "Mindanao hub"
-    },
-    {
-      "name": "General Santos",
-      "lat": 6.1164,
-      "lon": 125.1716,
-      "type": "Mindanao delivery area"
-    },
-    {
-      "name": "Cagayan de Oro",
-      "lat": 8.4542,
-      "lon": 124.6319,
-      "type": "Mindanao delivery area"
-    }
-  ],
-  "cpf_risk_matrix": [
-    {
-      "area_route": "Batanes / Extreme Northern Luzon",
-      "commodity_affected": "All dispatch",
-      "main_hazard": "TCWS No. 2; gale-force winds; very rough seas",
-      "risk_level": "Critical",
-      "recommended_dispatch_action": "Suspend dispatch until further notice",
-      "remarks": "Do not release trips without official clearance and validated safe passage."
-    },
-    {
-      "area_route": "Cagayan, Babuyan Islands, Isabela, Apayao, Ilocos Norte, northern Aurora, Catanduanes",
-      "commodity_affected": "Feeds, live animals, RM transfers",
-      "main_hazard": "TCWS No. 1; strong winds; exposed coastal/upland risk",
-      "risk_level": "High",
-      "recommended_dispatch_action": "Require route validation before dispatch",
-      "remarks": "Validate road passability, wind exposure, receiving readiness, GPS status, and contractor readiness."
-    },
-    {
-      "area_route": "Northern/eastern seaboards of Luzon and eastern Visayas",
-      "commodity_affected": "Sea/RORO-dependent transfers, containers",
-      "main_hazard": "Gale warning; rough to very rough seas",
-      "risk_level": "Critical",
-      "recommended_dispatch_action": "Hold dispatch",
-      "remarks": "Hold small seacraft/motorbanca-dependent movement; validate larger vessels with Coast Guard, ports, and shipping lines."
-    },
-    {
-      "area_route": "Central Luzon, NCR/CALABARZON, Visayas and Mindanao routes not under hold/suspension",
-      "commodity_affected": "All commodities",
-      "main_hazard": "Habagat/rain/gust exposure and local passability changes",
-      "risk_level": "Moderate",
-      "recommended_dispatch_action": "Dispatch with caution",
-      "remarks": "Coordinate route validation and update Affected Delivery Updates file."
-    }
-  ],
-  "dispatch_recommendations": [
-    {
-      "action": "Suspend dispatch until further notice",
-      "area": "Batanes / Extreme Northern Luzon",
-      "reason": "TCWS No. 2; gale-force winds; very rough seas"
-    },
-    {
-      "action": "Require route validation before dispatch",
-      "area": "Cagayan, Babuyan Islands, Isabela, Apayao, Ilocos Norte, northern Aurora, Catanduanes",
-      "reason": "TCWS No. 1; strong winds; exposed coastal/upland risk"
-    },
-    {
-      "action": "Hold dispatch",
-      "area": "Northern/eastern seaboards of Luzon and eastern Visayas",
-      "reason": "Gale warning; rough to very rough seas"
-    },
-    {
-      "action": "Dispatch with caution",
-      "area": "Central Luzon, NCR/CALABARZON, Visayas and Mindanao routes not under hold/suspension",
-      "reason": "Habagat/rain/gust exposure and local passability changes"
-    }
-  ],
-  "contractor_advisory": "All freight contractors must validate route, weather, road, bridge, and port conditions before dispatch. Keep GPS active and report flooding, landslides, road closures, port cancellations, strong winds, route deviations, or delays immediately.",
-  "change_log": [
-    "Checked PAGASA sources; no material change versus last verified JSON."
-  ],
-  "source_urls": {
-    "tcb": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%238_inday.pdf",
-    "weather_advisory": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/advisory.pdf",
-    "gale": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/gale.pdf"
-  },
-  "reliability_notes": [
-    "PAGASA is the official source of truth.",
-    "Satellite imagery is visual context only and must not override PAGASA values."
+  "par": [[5,115],[15,115],[21,120],[25,120],[25,135],[5,135]],
+  "tcws": {"highest":"No. 2 (Batanes)","signal1":["Cagayan incl. Babuyan Is.","Isabela","NE Quirino (Maddela)","Apayao","Northern Abra","Kalinga","E. Mountain Province (Natonin, Paracelis)","E. Ifugao (Aguinaldo, Alfonso Lista)","Ilocos Norte","Northern Aurora (Dilasag, Casiguran)","Northern & central Catanduanes"],"note":"Signal No. 2 over Batanes (62-88 km/h). Signal No. 1 over the listed areas (39-61 km/h)."},
+  "gusts": {"today":"Most of the country (today until Saturday, 11 Jul)","thu":"Most of the country","fri":"Most of the country"},
+  "rainfall": {"tc":[{"window":"Friday, 10 Jul","amount":"50-100 mm","areas":"Batanes"}],"monsoon":[{"window":"Thu-Fri (09-10 Jul)","amount":"50-100 mm","areas":"Occidental Mindoro, Palawan, Antique, Iloilo, Guimaras, Negros, Zamboanga del Sur, Lanao","intense":false},{"window":"Fri-Sat (10-11 Jul)","amount":"100-200 mm","areas":"Occidental Mindoro, Antique","intense":true}],"note":"Per PAGASA Weather Advisory No. 12 (11 AM, 09 Jul). Floods and landslides are likely."},
+  "marine": {"galeWarning":"Gale Warning No. 3 in effect (5:00 AM) — northern & eastern seaboards of Luzon, and the eastern seaboard of Visayas.","waves":[{"h":"Up to 6.0 m","where":"Seaboards of Batanes; N & E seaboards of Babuyan Is.; NE seaboard of mainland Cagayan"},{"h":"Up to 5.0 m","where":"Remaining seaboards of Cagayan and Babuyan Is.; seaboard of Isabela"},{"h":"Up to 4.5 m","where":"Aurora, Camarines Norte; N Camarines Sur; N & E Polillo Is. and Catanduanes; E Northern Samar; NE Eastern Samar"}],"advice":"Sea travel is risky for all vessels in the affected seaboards. All mariners must remain in port or seek safe harbor until winds and waves subside."},
+  "satellite": {"himawari":"JMA Himawari-9 (real-time, ~10-min)","base":"Esri World Imagery (Maxar/Earthstar) satellite base","note":"Satellite imagery is visual context only; official center/track from PAGASA."},
+  "changeLog": [
+    {"t":"Winds","from":"175 km/h (5 AM)","to":"165 km/h (11 AM)","dir":"dn"},
+    {"t":"Gusts","from":"215 km/h","to":"205 km/h","dir":"dn"},
+    {"t":"Position","from":"925 km E (5 AM)","to":"865 km E · 18.4N,129.8E (11 AM)","dir":"up"},
+    {"t":"Movement","from":"WNW 20 km/h","to":"NW 15 km/h","dir":"dn"},
+    {"t":"Signal","from":"No. 1","to":"No. 2 over Batanes","dir":"up"}
   ]
 }
