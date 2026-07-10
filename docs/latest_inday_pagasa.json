@@ -1,70 +1,63 @@
 {
-  "last_checked": "2026-07-10T17:24:22+00:00",
+  "last_checked": "2026-07-10T21:33:23+00:00",
   "latest_pagasa_update": {
     "source_type": "TCB",
-    "number": "Tropical Cyclone Bulletin No. 13",
-    "issued_at": "11:00 PM, 10 July 2026",
-    "valid_until": "the next bulletin at 5:00 AM tomorrow",
-    "source_url": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%2313_inday.pdf"
+    "number": "Tropical Cyclone Bulletin No. 14",
+    "issued_at": "5:00 AM, 11 July 2026",
+    "valid_until": "the next bulletin at 11:00 AM today",
+    "source_url": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%2314_inday.pdf"
   },
   "storm": {
     "name": "INDAY",
     "international_name": "BAVI",
     "category": "Typhoon",
-    "current_center_time": "10:00 PM",
-    "lat": 23.0,
-    "lon": 125.9,
-    "position_description": "485 km East Northeast of Itbayat, Batanes",
+    "current_center_time": "4:00 AM",
+    "lat": 24.0,
+    "lon": 125.2,
+    "position_description": "500 km Northeast of Itbayat, Batanes",
     "max_winds_kmh": 140,
-    "gustiness_kmh": 170,
-    "central_pressure_hpa": 960,
-    "movement": "Northwestward at 25 km/h",
-    "movement_speed_kmh": 25,
+    "gustiness_kmh": null,
+    "central_pressure_hpa": 950,
+    "movement": "Northwestward at 20 km/h",
+    "movement_speed_kmh": 20,
     "wind_extent_km": 880
   },
   "forecast_track": [
     {
       "label": "Current",
-      "forecast_time": "Current: 10:00 PM, 10 July 2026",
-      "lat": 23.0,
-      "lon": 125.9,
-      "position_description": "485 km East Northeast of Itbayat, Batanes",
+      "forecast_time": "Current: 4:00 AM, 11 July 2026",
+      "lat": 24.0,
+      "lon": 125.2,
+      "position_description": "500 km Northeast of Itbayat, Batanes",
       "max_winds_kmh": 140,
-      "gustiness_kmh": 170,
-      "central_pressure_hpa": 960,
+      "gustiness_kmh": null,
+      "central_pressure_hpa": 950,
       "category": "Typhoon",
       "movement_direction": "Northwestward",
-      "movement_speed_kmh": 25
+      "movement_speed_kmh": 20
     },
     {
-      "forecast_time": "8:00 AM, 11 July 2026",
-      "lat": 25.1,
-      "lon": 124.2,
-      "position_description": "540 km North Northeast of Itbayat, Batanes (OUTSIDE PAR)",
-      "max_winds_kmh": 140,
-      "category": "Typhoon",
-      "movement_direction": "NW",
-      "movement_speed_kmh": 25
-    },
-    {
-      "forecast_time": "8:00 PM, 11 July 2026",
-      "lat": 27.2,
-      "lon": 121.8,
-      "position_description": "715 km North of Itbayat, Batanes (OUTSIDE PAR)",
+      "forecast_time": "2:00 PM, 11 July 2026",
+      "lat": 26.3,
+      "lon": 123.1,
+      "position_description": "625 km North Northeast of Itbayat, Batanes (OUTSIDE PAR)",
       "max_winds_kmh": 130,
       "category": "Typhoon",
       "movement_direction": "NW",
       "movement_speed_kmh": 30
-    }
-  ],
-  "tcws": [
+    },
     {
-      "signal": "TCWS No. 2",
-      "areas_raw": "Batanes",
-      "wind_range_kmh": "62–88",
-      "potential_impact": "Minor to moderate threat to life and property."
+      "forecast_time": "2:00 AM, 12 July 2026",
+      "lat": 28.4,
+      "lon": 120.5,
+      "position_description": "860 km North of Extreme Northern Luzon or in the vicinity of Zhejiang, China (OUTSIDE PAR)",
+      "max_winds_kmh": 110,
+      "category": "Severe Tropical Storm",
+      "movement_direction": "NW",
+      "movement_speed_kmh": 30
     }
   ],
+  "tcws": [],
   "rainfall": [
     {
       "source": "Weather Advisory",
@@ -75,8 +68,8 @@
   "marine": [
     {
       "source": "Gale Warning",
-      "issued_at": "05:00 PM Today, 10 July 2026",
-      "details_raw": "MMSS-02 Rev.1/24-06-2024 Republic of the PhilippinesDEPARTMENT OF SCIENCE AND TECHNOLOGYPhilippine Atmospheric, Geophysical and AstronomicalServices Administration (PAGASA)Weather Division GALE WARNING NR. 7 For: Strong to Gale-Force winds associated with Tropical Cyclone \"INDAY\" {BAVI} Issued at 05:00 PM Today, 10 July 2026 Valid for broadcast until the next warning at 05:00 AM tomorrow. Strong to Gale-Force winds are prevailing or expected to affect the following areas: Seaboards Weather Winds (km/h / kt) Sea Condition Wave Height THE SEABOARDS OF EXTREME NORTHERN LUZON (Batanes) Stormy (52-80) / (28-43) rough to high 3.4-7.0 m THE NORTHERN AND EASTERN SEABOARDS OF NORTHERN LUZON (Cagayan including Babuyan Islands and Isabela) Rains with gusty winds (48-71) / (26-38) rough to very rough 3.1-6.0 m THE EASTERN SEABOARD OF CENTRAL LUZON (The northern coast of Aurora {Dilasag, Casiguran, Dinalungan}) Cloudy skies with scattered rains and thunderstorms (45-63) / (24-34) rough to very rough 2.8-4.5 m Warnings are for sea areas within 30 nautical miles from the coast. In rough to high, very high, or phenomenal seas, sea travel is risky for vessels of any type or tonnage. All mariners must remain in port or, if underway, seek shelter or safe harbor as soon as possible until winds and waves subside. In other areas, sea travel is risky for small seacrafts (including all motor bancas of any type or tonnage).Mariners of these vessels are advised to remain in port or seek safe harbor. For larger vessels, operating in these conditions required experience and properly equipped vessels. Vessel masters, boat captains, ship owners / operators, and Coast Guard units concerned are advised to take appropriate measures to ensure safety of life at sea. Unless there is an intermediate issuance, the next warning will be issued at 05:00 AM tomorrow. Prepared by:DJEV Checked by:JAM (02) 8284-08-00 local 4801 www.pagasa.dost.gov.ph \"Tracking the sky... helping the country.\" Weather and Flood Forecasting Center Senator Miriam P. Defensor-Santiago AvenueBrgy. Central, Quezon City, Philippines 1100"
+      "issued_at": "05:00 AM Today, 11 July 2026",
+      "details_raw": "MMSS-02 Rev.1/24-06-2024 Republic of the PhilippinesDEPARTMENT OF SCIENCE AND TECHNOLOGYPhilippine Atmospheric, Geophysical and AstronomicalServices Administration (PAGASA)Weather Division GALE WARNING NR. 8 For: Strong to Gale-Force winds associated with Tropical Cyclone \"INDAY\" {BAVI} Issued at 05:00 AM Today, 11 July 2026 Valid for broadcast until the next warning at 05:00 PM today Strong to Gale-Force winds are prevailing or expected to affect the following areas: Seaboards Weather Winds (km/h / kt) Sea Condition Wave Height THE SEABOARDS OF EXTREME NORTHERN LUZON (Batanes) Stormy (52-80) / (28- 43) rough to high 3.4-7.0 m THE NORTHERN AND EASTERN SEABOARDS OF NORTHERN LUZON (Cagayan including Babuyan Islands) Rains with gusty winds (45-68) / (29- 36) rough to very rough 2.8-5.0 m Warnings are for sea areas within 30 nautical miles from the coast. In rough to high, very high, or phenomenal seas, sea travel is risky for vessels of any type or tonnage. All mariners must remain in port or, if underway, seek shelter or safe harbor as soon as possible until winds and waves subside. In other areas, sea travel is risky for small seacrafts (including all motor bancas of any type or tonnage).Mariners of these vessels are advised to remain in port or seek safe harbor. For larger vessels, operating in these conditions required experience and properly equipped vessels. Vessel masters, boat captains, ship owners / operators, and Coast Guard units concerned are advised to take appropriate measures to ensure safety of life at sea. Unless there is an intermediate issuance, the next warning will be issued at 05:00 PM today Prepared by:RBB Checked by:VCT (02) 8284-08-00 local 4801 www.pagasa.dost.gov.ph \"Tracking the sky... helping the country.\" Weather and Flood Forecasting Center Senator Miriam P. Defensor-Santiago AvenueBrgy. Central, Quezon City, Philippines 1100"
     }
   ],
   "regional_advisories": [],
@@ -182,11 +175,13 @@
   ],
   "contractor_advisory": "All freight contractors must validate route, weather, road, bridge, and port conditions before dispatch. Keep GPS active and report flooding, landslides, road closures, port cancellations, strong winds, route deviations, or delays immediately.",
   "change_log": [
-    "Bulletin updated: Tropical Cyclone Bulletin No. 12 → Tropical Cyclone Bulletin No. 13",
-    "Movement changed: North northwestward at 20 km/h → Northwestward at 25 km/h"
+    "Bulletin updated: Tropical Cyclone Bulletin No. 13 → Tropical Cyclone Bulletin No. 14",
+    "Gustiness changed: 170 → None",
+    "Central pressure changed: 960 → 950",
+    "Movement changed: Northwestward at 25 km/h → Northwestward at 20 km/h"
   ],
   "source_urls": {
-    "tcb": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%2313_inday.pdf",
+    "tcb": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%2314_inday.pdf",
     "weather_advisory": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/advisory.pdf",
     "gale": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/gale.pdf"
   },
