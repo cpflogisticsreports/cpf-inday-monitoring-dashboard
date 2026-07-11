@@ -1,58 +1,48 @@
 {
-  "last_checked": "2026-07-10T21:33:23+00:00",
+  "last_checked": "2026-07-11T06:04:53+00:00",
   "latest_pagasa_update": {
     "source_type": "TCB",
-    "number": "Tropical Cyclone Bulletin No. 14",
-    "issued_at": "5:00 AM, 11 July 2026",
-    "valid_until": "the next bulletin at 11:00 AM today",
-    "source_url": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%2314_inday.pdf"
+    "number": "Tropical Cyclone Bulletin No. 15",
+    "issued_at": "11:00 AM, 11 July 2026",
+    "valid_until": "the next bulletin at 5:00 PM today",
+    "source_url": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%2315_inday.pdf"
   },
   "storm": {
     "name": "INDAY",
     "international_name": "BAVI",
     "category": "Typhoon",
-    "current_center_time": "4:00 AM",
-    "lat": 24.0,
-    "lon": 125.2,
-    "position_description": "500 km Northeast of Itbayat, Batanes",
+    "current_center_time": "10:00 AM",
+    "lat": 25.6,
+    "lon": 124.2,
+    "position_description": "590 km North Northeast of Itbayat, Batanes",
     "max_winds_kmh": 140,
-    "gustiness_kmh": null,
+    "gustiness_kmh": 170,
     "central_pressure_hpa": 950,
-    "movement": "Northwestward at 20 km/h",
+    "movement": "North northwestward at 20 km/h",
     "movement_speed_kmh": 20,
     "wind_extent_km": 880
   },
   "forecast_track": [
     {
       "label": "Current",
-      "forecast_time": "Current: 4:00 AM, 11 July 2026",
-      "lat": 24.0,
-      "lon": 125.2,
-      "position_description": "500 km Northeast of Itbayat, Batanes",
+      "forecast_time": "Current: 10:00 AM, 11 July 2026",
+      "lat": 25.6,
+      "lon": 124.2,
+      "position_description": "590 km North Northeast of Itbayat, Batanes",
       "max_winds_kmh": 140,
-      "gustiness_kmh": null,
+      "gustiness_kmh": 170,
       "central_pressure_hpa": 950,
       "category": "Typhoon",
-      "movement_direction": "Northwestward",
+      "movement_direction": "North northwestward",
       "movement_speed_kmh": 20
     },
     {
-      "forecast_time": "2:00 PM, 11 July 2026",
-      "lat": 26.3,
-      "lon": 123.1,
-      "position_description": "625 km North Northeast of Itbayat, Batanes (OUTSIDE PAR)",
+      "forecast_time": "8:00 PM, 11 July 2026",
+      "lat": 27.4,
+      "lon": 121.9,
+      "position_description": "735 km North of Itbayat, Batanes (OUTSIDE PAR)",
       "max_winds_kmh": 130,
       "category": "Typhoon",
-      "movement_direction": "NW",
-      "movement_speed_kmh": 30
-    },
-    {
-      "forecast_time": "2:00 AM, 12 July 2026",
-      "lat": 28.4,
-      "lon": 120.5,
-      "position_description": "860 km North of Extreme Northern Luzon or in the vicinity of Zhejiang, China (OUTSIDE PAR)",
-      "max_winds_kmh": 110,
-      "category": "Severe Tropical Storm",
       "movement_direction": "NW",
       "movement_speed_kmh": 30
     }
@@ -61,8 +51,8 @@
   "rainfall": [
     {
       "source": "Weather Advisory",
-      "issued_at": "11:00 PM, 10 July 2026",
-      "details_raw": "WEATHER ADVISORY NO. 18 For: Southwest Monsoon Issued at: 11:00 PM, 10 July 2026 Heavy rainfall outlook due to Southwest Monsoon Forecast Rainfall Tonight to tomorrow evening (July 11) Tomorrow evening to Sunday evening (July 12) Sunday evening to Monday evening (July 13) Potential Impacts (>200 mm) - - - Widespread incidents of severe flooding and landslides expected. (100 – 200 mm) Zambales, Bataan, Occidental Mindoro, and Antique Occidental Mindoro, Zambales, and Bataan Zambales and Bataan Numerous flooding events are likely, especially in areas that are urbanized, low lying, or near rivers. Landslide likely in moderate to highly susceptible areas. (50 – 100 mm) Metro Manila, Bulacan, Pampanga, Tarlac, Rizal, Cavite, Laguna, Batangas, Oriental Mindoro, Romblon, Palawan, Aklan, Capiz, Iloilo, Guimaras, Negros Occidental, and Negros Oriental La Union, Pangasinan, Benguet, Tarlac, Pampanga, Bulacan, Metro Manila, Rizal, Cavite, Laguna, Batangas, Oriental Mindoro, Romblon, Palawan, Antique, and Aklan Ilocos Sur, La Union, Pangasinan, Benguet, Tarlac, Pampanga, Bulacan, Metro Manila, Rizal, Cavite, Laguna, Batangas, and Occidental Mindoro Localized flooding is possible mainly in areas that are urbanized, low lying, or near rivers. Landslide possible in highly susceptible areas. Forecast rainfall may be higher in mountainous and elevated areas. Moreover, impacts in some areas may be worsened by significant antecedent rainfall. The public disaster risk reduction and management offices concerned are advised to take all necessary measure to protect life and property. PAGASA Regional Services Divisions may issue Heavy Rainfall Warnings/Thunderstorms Advisories, and other severe weather information specific to their areas of responsibility as appropriate. Unless significant changes occur, the next Weather Advisory will be issued at 5:00 AM tomorrow. PREPARED BY: DJEV CHECKED BY: RBB WFS-07 Rev.2/09-09-2024 \"tracking the sky ...helping the country\" Weather and Flood Forecasting Center Senator Miriam P. Defensor-Santiago Avenue Brgy. Central, Quezon City 1100, Philippines Tel. No.: (+632) 8284-0800 ext. 4800 Website: https://bagong.pagasa.dost.gov.ph"
+      "issued_at": "",
+      "details_raw": ""
     }
   ],
   "marine": [
@@ -175,13 +165,12 @@
   ],
   "contractor_advisory": "All freight contractors must validate route, weather, road, bridge, and port conditions before dispatch. Keep GPS active and report flooding, landslides, road closures, port cancellations, strong winds, route deviations, or delays immediately.",
   "change_log": [
-    "Bulletin updated: Tropical Cyclone Bulletin No. 13 → Tropical Cyclone Bulletin No. 14",
-    "Gustiness changed: 170 → None",
-    "Central pressure changed: 960 → 950",
-    "Movement changed: Northwestward at 25 km/h → Northwestward at 20 km/h"
+    "Bulletin updated: Tropical Cyclone Bulletin No. 14 → Tropical Cyclone Bulletin No. 15",
+    "Gustiness changed: None → 170",
+    "Movement changed: Northwestward at 20 km/h → North northwestward at 20 km/h"
   ],
   "source_urls": {
-    "tcb": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%2314_inday.pdf",
+    "tcb": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%2315_inday.pdf",
     "weather_advisory": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/advisory.pdf",
     "gale": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/gale.pdf"
   },
