@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-07-11T20:28:46+00:00",
+  "last_checked": "2026-07-11T23:37:42+00:00",
   "latest_pagasa_update": {
     "source_type": "TCB",
     "number": "Tropical Cyclone Bulletin No. 16",
@@ -58,8 +58,8 @@
   "marine": [
     {
       "source": "Gale Warning",
-      "issued_at": "",
-      "details_raw": ""
+      "issued_at": "05:00 AM Today, 12 July 2026",
+      "details_raw": "MMSS-02 Rev.1/24-06-2024 Republic of the PhilippinesDEPARTMENT OF SCIENCE AND TECHNOLOGYPhilippine Atmospheric, Geophysical and AstronomicalServices Administration (PAGASA)Weather Division GALE WARNING NR. 10 Final For: Moderate to Strong winds associated with Tropical Cyclone \"INDAY\" {BAVI} Issued at 05:00 AM Today, 12 July 2026 Moderate to Strong winds are prevailing or expected to affect the following areas: Seaboards Weather Winds (km/h / kt) Sea Condition Wave Height THE SEABOARDS OF EXTREME NORTHERN LUZON (Batanes and Babuyan Islands) Cloudy skies with scattered rains and thunderstorms (41-59) / (22- 32) moderate to rough 2.5-4.0 m Mariners of small seacrafts (including all motor bancas of any type or tonnage) are advised to take precautionary measures when venturing out to sea and, if possible, avoid navigating in these conditions. Vessel masters, boat captains, ship owners / operators, and Coast Guard units concerned are advised to take appropriate measures to ensure safety of life at sea. This is the final warning. Prepared by:VCT Checked by:ADA (02) 8284-08-00 local 4801 www.pagasa.dost.gov.ph \"Tracking the sky... helping the country.\" Weather and Flood Forecasting Center Senator Miriam P. Defensor-Santiago AvenueBrgy. Central, Quezon City, Philippines 1100"
     }
   ],
   "regional_advisories": [],
