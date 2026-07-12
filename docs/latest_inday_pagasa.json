@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-07-12T18:42:29+00:00",
+  "last_checked": "2026-07-12T21:34:42+00:00",
   "latest_pagasa_update": {
     "source_type": "TCB",
     "number": "Tropical Cyclone Bulletin No. 16",
@@ -51,8 +51,8 @@
   "rainfall": [
     {
       "source": "Weather Advisory",
-      "issued_at": "",
-      "details_raw": ""
+      "issued_at": "5:00 AM, 13 July 2026",
+      "details_raw": "WEATHER ADVISORY NO. 27 For: Southwest Monsoon Issued at: 5:00 AM, 13 July 2026 Heavy rainfall outlook due to Southwest Monsoon Forecast Rainfall Today Tomorrow Wednesday (July 15) Potential Impacts (>200 mm) - - - Widespread incidents of severe flooding and landslides expected. (100 – 200 mm) - - Numerous flooding events are likely, especially in areas that are urbanized, low lying, or near rivers. Landslide likely in moderate to highly susceptible areas. (50 – 100 mm) Ilocos Sur, La Union, Pangasinan, Zambales, and Bataan - - Localized flooding is possible mainly in areas that are urbanized, low lying, or near rivers. Landslide possible in highly susceptible areas. Forecast rainfall may be higher in mountainous and elevated areas. Moreover, impacts in some areas may be worsened by significant antecedent rainfall. The public disaster risk reduction and management offices concerned are advised to take all necessary measure to protect life and property. PAGASA Regional Services Divisions may issue Heavy Rainfall Warnings/Thunderstorms Advisories, and other severe weather information specific to their areas of responsibility as appropriate. Unless significant changes occur, the next Weather Advisory will be issued at 11:00 AM today. PREPARED BY: MACD CHECKED BY: ADA WFS-07 Rev.2/09-09-2024 \"tracking the sky ...helping the country\" Weather and Flood Forecasting Center Senator Miriam P. Defensor-Santiago Avenue Brgy. Central, Quezon City 1100, Philippines Tel. No.: (+632) 8284-0800 ext. 4800 Website: https://bagong.pagasa.dost.gov.ph"
     }
   ],
   "marine": [
