@@ -1,110 +1,50 @@
 {
-  "last_checked": "2026-07-14T20:42:54+00:00",
+  "last_checked": "2026-07-14T23:37:10+00:00",
   "latest_pagasa_update": {
     "source_type": "TCB",
-    "number": "Tropical Cyclone Bulletin No. 5",
-    "issued_at": "11:00 PM, 08 July 2026",
-    "valid_until": "the next bulletin at 5:00 AM tomorrow",
-    "source_url": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%235_inday.pdf"
+    "number": "Tropical Cyclone Bulletin No. 16",
+    "issued_at": "5:00 PM, 11 July 2026",
+    "valid_until": "",
+    "source_url": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%2316_inday.pdf"
   },
   "storm": {
     "name": "INDAY",
     "international_name": "BAVI",
-    "category": "Super Typhoon",
-    "current_center_time": "10:00 PM",
-    "lat": 17.5,
-    "lon": 131.5,
-    "position_description": "1,035 km East of Northern Luzon",
-    "max_winds_kmh": 185,
-    "gustiness_kmh": 230,
-    "central_pressure_hpa": 930,
-    "movement": "West northwestward at 20 km/h",
-    "movement_speed_kmh": 20,
-    "wind_extent_km": 880
+    "category": "Typhoon",
+    "current_center_time": "4:00 PM",
+    "lat": 27.0,
+    "lon": 122.7,
+    "position_description": "695 km North of Itbayat, Batanes",
+    "max_winds_kmh": 140,
+    "gustiness_kmh": 170,
+    "central_pressure_hpa": 950,
+    "movement": "Northwestward at 40 km/h",
+    "movement_speed_kmh": 40,
+    "wind_extent_km": 820
   },
   "forecast_track": [
     {
       "label": "Current",
-      "forecast_time": "Current: 10:00 PM, 08 July 2026",
-      "lat": 17.5,
-      "lon": 131.5,
-      "position_description": "1,035 km East of Northern Luzon",
-      "max_winds_kmh": 185,
-      "gustiness_kmh": 230,
-      "central_pressure_hpa": 930,
-      "category": "Super Typhoon",
-      "movement_direction": "West northwestward",
-      "movement_speed_kmh": 20
-    },
-    {
-      "forecast_time": "8:00 AM, 09 July 2026",
-      "lat": 18.2,
-      "lon": 130.0,
-      "position_description": "885 km East of Northern Luzon",
-      "max_winds_kmh": 185,
-      "category": "Super Typhoon",
-      "movement_direction": "WNW",
-      "movement_speed_kmh": 20
-    },
-    {
-      "forecast_time": "8:00 PM, 09 July 2026",
-      "lat": 19.5,
-      "lon": 128.3,
-      "position_description": "720 km East of Calayan, Cagayan",
-      "max_winds_kmh": 175,
+      "forecast_time": "Current: 4:00 PM, 11 July 2026",
+      "lat": 27.0,
+      "lon": 122.7,
+      "position_description": "695 km North of Itbayat, Batanes",
+      "max_winds_kmh": 140,
+      "gustiness_kmh": 170,
+      "central_pressure_hpa": 950,
       "category": "Typhoon",
-      "movement_direction": "NW",
-      "movement_speed_kmh": 20
+      "movement_direction": "Northwestward",
+      "movement_speed_kmh": 40
     },
     {
-      "forecast_time": "8:00 AM, 10 July 2026",
-      "lat": 20.9,
-      "lon": 126.9,
-      "position_description": "525 km East of Itbayat, Batanes",
-      "max_winds_kmh": 175,
-      "category": "Typhoon",
-      "movement_direction": "NW",
-      "movement_speed_kmh": 20
-    },
-    {
-      "forecast_time": "8:00 PM, 10 July 2026",
-      "lat": 22.6,
-      "lon": 125.3,
-      "position_description": "410 km East Northeast of Itbayat, Batanes",
-      "max_winds_kmh": 165,
-      "category": "Typhoon",
-      "movement_direction": "NW",
-      "movement_speed_kmh": 20
-    },
-    {
-      "forecast_time": "8:00 AM, 11 July 2026",
-      "lat": 24.7,
-      "lon": 123.1,
-      "position_description": "560 km Northeast of Itbayat, Batanes",
-      "max_winds_kmh": 155,
-      "category": "Typhoon",
-      "movement_direction": "NW",
-      "movement_speed_kmh": 25
-    },
-    {
-      "forecast_time": "8:00 PM, 11 July 2026",
-      "lat": 26.5,
-      "lon": 121.0,
-      "position_description": "640 km North of Itbayat, Batanes (OUTSIDE PAR)",
-      "max_winds_kmh": 150,
-      "category": "Typhoon",
-      "movement_direction": "NW",
-      "movement_speed_kmh": 25
-    },
-    {
-      "forecast_time": "8:00 PM, 12 July 2026",
-      "lat": 30.7,
-      "lon": 116.4,
-      "position_description": "1,230 km North Northwest of Extreme Northern Luzon or in the vicinity of Anhui, China (OUTSIDE PAR)",
-      "max_winds_kmh": 95,
+      "forecast_time": "2:00 AM, 12 July 2026",
+      "lat": 28.6,
+      "lon": 120.6,
+      "position_description": "880 km North of Extreme Northern Luzon or in the vicinity of Zhejiang, China (OUTSIDE PAR)",
+      "max_winds_kmh": 110,
       "category": "Severe Tropical Storm",
       "movement_direction": "NW",
-      "movement_speed_kmh": 25
+      "movement_speed_kmh": 30
     }
   ],
   "tcws": [],
@@ -225,10 +165,15 @@
   ],
   "contractor_advisory": "All freight contractors must validate route, weather, road, bridge, and port conditions before dispatch. Keep GPS active and report flooding, landslides, road closures, port cancellations, strong winds, route deviations, or delays immediately.",
   "change_log": [
-    "Checked PAGASA sources; no material change versus last verified JSON."
+    "Bulletin updated: Tropical Cyclone Bulletin No. 5 → Tropical Cyclone Bulletin No. 16",
+    "Maximum sustained winds changed: 185 → 140",
+    "Gustiness changed: 230 → 170",
+    "Central pressure changed: 930 → 950",
+    "Movement changed: West northwestward at 20 km/h → Northwestward at 40 km/h",
+    "Wind extent changed: 880 → 820"
   ],
   "source_urls": {
-    "tcb": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%235_inday.pdf",
+    "tcb": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%2316_inday.pdf",
     "weather_advisory": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/advisory.pdf",
     "gale": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/gale.pdf"
   },
