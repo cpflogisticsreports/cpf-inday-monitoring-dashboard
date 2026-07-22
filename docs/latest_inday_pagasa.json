@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-07-22T08:01:06+00:00",
+  "last_checked": "2026-07-22T13:12:15+00:00",
   "latest_pagasa_update": {
     "source_type": "TCB",
     "number": "Tropical Cyclone Bulletin No. 16",
@@ -51,8 +51,8 @@
   "rainfall": [
     {
       "source": "Weather Advisory",
-      "issued_at": "",
-      "details_raw": ""
+      "issued_at": "5:00 PM, 22 July 2026",
+      "details_raw": "WEATHER ADVISORY NO. 6 For: Southwest Monsoon and Low Pressure Area (LPA)Issued at: 5:00 PM, 22 July 2026 Heavy rainfall outlook due to Southwest Monsoon ForecastRainfall Today to tomorrowafternoon (July 23)Tomorrow afternoon toFriday afternoon (July 24) Friday afternoon toSaturday afternoon (July25) Potential Impacts (>200 mm) - - - Widespread incidents of severeflooding and landslides expected. (100 – 200mm) - - - Numerous flooding events are likely,especially in areas that are urbanized,low lying, or near rivers.Landslide likely in moderate to highlysusceptible areas. (50 – 100mm) Zamboanga del Norte,Zamboanga Sibugay,Zamboanga del Sur, Lanaodel Norte, Lanao del Sur,Maguindanao del Norte,Sultan Kudarat, andSarangani Antique, Negros Occidental,Negros Oriental,Zamboanga Sibugay,Zamboanga del Sur, Lanaodel Norte, Lanao del Sur,and Maguindanao del Norte Occidental Mindoro,Antique, Iloilo, Guimaras,and Negros Occidental Localized flooding is possible mainly inareas that are urbanized, low lying, ornear rivers.Landslide possible in highlysusceptible areas. Heavy rainfall outlook due to LPA ForecastRainfallToday to tomorrowafternoon (July 23) Tomorrow afternoon toFriday afternoon (July24) Friday afternoon toSaturday afternoon (July25) Potential Impacts (>200 mm) - - - Widespread incidents of severe floodingand landslides expected. (100 – 200mm) - - Cagayan, Apayao, Abra,Ilocos Norte, and Ilocos Sur Numerous flooding events are likely,especially in areas that are urbanized,low lying, or near rivers.Landslide likely in moderate to highlysusceptible areas. (50 – 100mm) - Cagayan Batanes, Isabela, Kalinga,Mountain Province, Ifugao,Benguet, and La Union Localized flooding is possible mainly inareas that are urbanized, low lying, ornear rivers.Landslide possible in highly susceptibleareas. Forecast rainfall may be higher in mountainous and elevated areas. Moreover, impacts in some areas may be worsened by significantantecedent rainfall. The public disaster risk reduction and management offices concerned are advised to take all necessary measure to protect life and property.PAGASA Regional Services Divisions may issue Heavy Rainfall Warnings/Thunderstorms Advisories, and other severe weather informationspecific to their areas of responsibility as appropriate. Unless significant changes occur, the next Weather Advisory will be issued at 11:00 PM today. PREPARED BY: BJNE CHECKED BY: MAGGE WFS-07 Rev.2/09-09-2024 \"tracking the sky ...helping the country\" Weather and Flood Forecasting CenterSenator Miriam P. Defensor-Santiago AvenueBrgy. Central, Quezon City 1100, Philippines Tel. No.: (+632) 8284-0800 ext. 4800 Website:https://bagong.pagasa.dost.gov.ph"
     }
   ],
   "marine": [
