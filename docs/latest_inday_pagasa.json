@@ -1,105 +1,68 @@
 {
-  "last_checked": "2026-08-02T23:43:26+00:00",
+  "last_checked": "2026-08-03T12:38:22+00:00",
   "latest_pagasa_update": {
     "source_type": "TCB",
-    "number": "Tropical Cyclone Bulletin No. 9",
-    "issued_at": "11:00 PM, 09 July 2026",
-    "valid_until": "the next bulletin at 5:00 AM tomorrow",
-    "source_url": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%239_inday.pdf"
+    "number": "Tropical Cyclone Bulletin No. 14",
+    "issued_at": "5:00 AM, 11 July 2026",
+    "valid_until": "the next bulletin at 11:00 AM today",
+    "source_url": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%2314_inday.pdf"
   },
   "storm": {
     "name": "INDAY",
     "international_name": "BAVI",
     "category": "Typhoon",
-    "current_center_time": "10:00 PM",
-    "lat": 19.3,
-    "lon": 128.5,
-    "position_description": "740 km East of Calayan, Cagayan",
-    "max_winds_kmh": 155,
-    "gustiness_kmh": 190,
+    "current_center_time": "4:00 AM",
+    "lat": 24.0,
+    "lon": 125.2,
+    "position_description": "500 km Northeast of Itbayat, Batanes",
+    "max_winds_kmh": 140,
+    "gustiness_kmh": null,
     "central_pressure_hpa": 950,
-    "movement": "North northwestward at 10 km/h",
-    "movement_speed_kmh": 10,
-    "wind_extent_km": 860
+    "movement": "Northwestward at 20 km/h",
+    "movement_speed_kmh": 20,
+    "wind_extent_km": 880
   },
   "forecast_track": [
     {
       "label": "Current",
-      "forecast_time": "Current: 10:00 PM, 09 July 2026",
-      "lat": 19.3,
-      "lon": 128.5,
-      "position_description": "740 km East of Calayan, Cagayan",
-      "max_winds_kmh": 155,
-      "gustiness_kmh": 190,
+      "forecast_time": "Current: 4:00 AM, 11 July 2026",
+      "lat": 24.0,
+      "lon": 125.2,
+      "position_description": "500 km Northeast of Itbayat, Batanes",
+      "max_winds_kmh": 140,
+      "gustiness_kmh": null,
       "central_pressure_hpa": 950,
       "category": "Typhoon",
-      "movement_direction": "North northwestward",
-      "movement_speed_kmh": 10
-    },
-    {
-      "forecast_time": "8:00 AM, 10 July 2026",
-      "lat": 20.6,
-      "lon": 127.4,
-      "position_description": "565 km East of Basco, Batanes",
-      "max_winds_kmh": 150,
-      "category": "Typhoon",
-      "movement_direction": "NW",
+      "movement_direction": "Northwestward",
       "movement_speed_kmh": 20
     },
     {
-      "forecast_time": "8:00 PM, 10 July 2026",
-      "lat": 22.4,
-      "lon": 125.7,
-      "position_description": "440 km East Northeast of Itbayat, Batanes",
-      "max_winds_kmh": 150,
-      "category": "Typhoon",
-      "movement_direction": "NW",
-      "movement_speed_kmh": 20
-    },
-    {
-      "forecast_time": "8:00 AM, 11 July 2026",
-      "lat": 24.5,
-      "lon": 123.5,
-      "position_description": "445 km North Northeast of Itbayat, Batanes",
-      "max_winds_kmh": 140,
-      "category": "Typhoon",
-      "movement_direction": "NW",
-      "movement_speed_kmh": 25
-    },
-    {
-      "forecast_time": "8:00 PM, 11 July 2026",
+      "forecast_time": "2:00 PM, 11 July 2026",
       "lat": 26.3,
-      "lon": 121.2,
-      "position_description": "615 km North of Itbayat, Batanes (OUTSIDE PAR)",
-      "max_winds_kmh": 140,
+      "lon": 123.1,
+      "position_description": "625 km North Northeast of Itbayat, Batanes (OUTSIDE PAR)",
+      "max_winds_kmh": 130,
       "category": "Typhoon",
       "movement_direction": "NW",
-      "movement_speed_kmh": 25
+      "movement_speed_kmh": 30
     },
     {
-      "forecast_time": "8:00 AM, 12 July 2026",
+      "forecast_time": "2:00 AM, 12 July 2026",
       "lat": 28.4,
-      "lon": 118.5,
-      "position_description": "910 km North Northwest of Extreme Northern Luzon or in the vicinity of Zhejiang, China (OUTSIDE PAR)",
-      "max_winds_kmh": 100,
+      "lon": 120.5,
+      "position_description": "860 km North of Extreme Northern Luzon or in the vicinity of Zhejiang, China (OUTSIDE PAR)",
+      "max_winds_kmh": 110,
       "category": "Severe Tropical Storm",
       "movement_direction": "NW",
       "movement_speed_kmh": 30
     }
   ],
-  "tcws": [
-    {
-      "signal": "TCWS No. 1",
-      "areas_raw": "The rest of Babuyan Islands, the rest of mainland Cagayan, Isabela, the northeastern portion of Quirino (Maddela), Apayao, the northern portion of Abra (Tineg, Lagayan, Danglas, San Juan, Lagangilang, Licuan-Baay, Malibcong, Lacub, Daguioman, Dolores, La Paz), Kalinga, the eastern portion of Mountain Province (Natonin, Paracelis), the eastern portion of Ifugao (Aguinaldo, Alfonso Lista), Ilocos Norte, the northern portion of Aurora (Dilasag, Casiguran), and the northern and central portions of Catanduanes (Pandan, Caramoran, Bagamanoc, Panganiban, Viga, Gigmoto, Baras, San Miguel)",
-      "wind_range_kmh": "39–61",
-      "potential_impact": "Minimal to minor threat to life and property."
-    }
-  ],
+  "tcws": [],
   "rainfall": [
     {
       "source": "Weather Advisory",
-      "issued_at": "5:00 AM, 03 August 2026",
-      "details_raw": "WEATHER ADVISORY NO. 6 For: Tropical Cyclone LUIS and Southwest MonsoonIssued at: 5:00 AM, 03 August 2026 Heavy rainfall outlook due to Tropical Cyclone Luis ForecastRainfallToday (August 03)Tomorrow (August 04)Wednesday Potential Impacts (>200 mm) - - - Widespread incidents of severe floodingand landslides expected. (100 – 200mm) La Union,Pangasinan,Zambales andBataan La Union, Pangasinan,Zambales and Bataan - Numerous flooding events are likely,especially in areas that are urbanized,low lying, or near rivers.Landslide likely in moderate to highlysusceptible areas. (50 – 100mm) Benguet, Ifugao,Mountain Province,Kalinga, NuevaVizcaya, Quirino,Tarlac, Nueva Ecija,Bulacan, andPampanga Ilocos Sur, Benguet,Nueva Vizcaya, Quirino,Aurora, Nueva Ecija,Bulacan, Tarlac,Pampanga, Metro Manila,Cavite, Batangas, andRizal - Localized flooding is possible mainly inareas that are urbanized, low lying, ornear rivers.Landslide possible in highly susceptibleareas. Heavy rainfall outlook due to Southwest Monsoon ForecastRainfallToday (August 03)Tomorrow (August04) Wednesday Potential Impacts (>200 mm) - - - Widespread incidents of severe floodingand landslides expected. (100 – 200mm) - - Zambales, Bataan, andOccidental Mindoro Numerous flooding events are likely,especially in areas that are urbanized, lowlying, or near rivers.Landslide likely in moderate to highlysusceptible areas. (50 – 100mm) - Occidental Mindoro La Union, Pangasinan,Benguet, Nueva Ecija,Tarlac, Pampanga,Bulacan, Metro Manila,Cavite, Laguna,Batangas, Rizal, andAntique Localized flooding is possible mainly inareas that are urbanized, low lying, or nearrivers.Landslide possible in highly susceptibleareas. Forecast rainfall may be higher in mountainous and elevated areas. Moreover, impacts in some areas may be worsened bysignificantantecedent rainfall. The public disaster risk reduction and management offices concerned are advised to take all necessary measure to protect life andproperty. PAGASA Regional Services Divisions may issue Heavy Rainfall Warnings/Thunderstorms Advisories, and other severeweather informationspecific to their areas of responsibility as appropriate. Unless significant changes occur, the next Weather Advisory will be issued at 11:00 AM today. PREPARED BY: VCT CHECKED BY: ADA WFS-07 Rev.2/09-09-2024 \"tracking the sky ...helping the country\" Weather and Flood Forecasting CenterSenator Miriam P. Defensor-Santiago AvenueBrgy. Central, Quezon City 1100, Philippines Tel. No.: (+632) 8284-0800 ext. 4800 Website:https://bagong.pagasa.dost.gov.ph"
+      "issued_at": "5:00 PM, 03 August 2026",
+      "details_raw": "WEATHER ADVISORY NO. 8 For: Tropical Cyclone LUIS and Southwest MonsoonIssued at: 5:00 PM, 03 August 2026 Heavy rainfall outlook due to Tropical Cyclone LUIS ForecastRainfall Today totomorrowafternoon(August 4) Tomorrow afternoonto Wednesdayafternoon (August 5) Wednesday afternoon toThursday afternoon(August 6) Potential Impacts (>200 mm)Pangasinan - - Widespread incidents of severe flooding andlandslides expected. (100 – 200mm) La Union,Benguet, Tarlac,Zambales andBataan La Union, Pangasinan,Benguet, Tarlac,Zambales, and Bataan - Numerous flooding events are likely, especiallyin areas that are urbanized, low lying, or nearrivers.Landslide likely in moderate to highlysusceptible areas. (50 – 100 mm) Ilocos Sur, Ifugao,MountainProvince, NuevaVizcaya, Quirino,Nueva Ecija,Aurora, Bulacan,Isabela,Pampanga, MetroManila, Cavite,and Batangas Ilocos Sur, NuevaVizcaya, Aurora, NuevaEcija, Bulacan, andPampanga - Localized flooding is possible mainly in areasthat are urbanized, low lying, or near rivers.Landslide possible in highly susceptible areas. Heavy rainfall outlook due to Southwest Monsoon ForecastRainfall Today totomorrowafternoon(August 4) Tomorrow afternoonto Wednesdayafternoon (August 5) Wednesday afternoon toThursday afternoon(August 6) Potential Impacts (>200 mm) - - - Widespread incidents of severe flooding andlandslides expected. (100 – 200mm) - Occidental Mindoro - Numerous flooding events are likely, especiallyin areas that are urbanized, low lying, or nearrivers.Landslide likely in moderate to highlysusceptible areas. (50 – 100 mm) - Metro Manila, Cavite,Batangas, Laguna, andRizal, and Antique La Union, Pangasinan,Benguet, Zambales,Bataan, Cavite, Batangas,Occidental Mindoro, andAntique Localized flooding is possible mainly in areasthat are urbanized, low lying, or near rivers.Landslide possible in highly susceptible areas. Forecast rainfall may be higher in mountainous and elevated areas. Moreover, impacts in some areas may be worsened bysignificantantecedent rainfall. The public disaster risk reduction and management offices concerned are advised to take all necessary measure to protect life andproperty. PAGASA Regional Services Divisions may issue Heavy Rainfall Warnings/Thunderstorms Advisories, and other severeweather informationspecific to their areas of responsibility as appropriate. Unless significant changes occur, the next Weather Advisory will be issued at 11:00 PM today. PREPARED BY: DJEV CHECKED BY: MAGGE WFS-07 Rev.2/09-09-2024 \"tracking the sky ...helping the country\" Weather and Flood Forecasting CenterSenator Miriam P. Defensor-Santiago AvenueBrgy. Central, Quezon City 1100, Philippines Tel. No.: (+632) 8284-0800 ext. 4800 Website:https://bagong.pagasa.dost.gov.ph"
     }
   ],
   "marine": [
@@ -212,14 +175,14 @@
   ],
   "contractor_advisory": "All freight contractors must validate route, weather, road, bridge, and port conditions before dispatch. Keep GPS active and report flooding, landslides, road closures, port cancellations, strong winds, route deviations, or delays immediately.",
   "change_log": [
-    "Bulletin updated: Tropical Cyclone Bulletin No. 8 → Tropical Cyclone Bulletin No. 9",
-    "Maximum sustained winds changed: 165 → 155",
-    "Gustiness changed: 205 → 190",
-    "Central pressure changed: 945 → 950",
-    "Movement changed: West Northwestward at 20 km/h → North northwestward at 10 km/h"
+    "Bulletin updated: Tropical Cyclone Bulletin No. 9 → Tropical Cyclone Bulletin No. 14",
+    "Maximum sustained winds changed: 155 → 140",
+    "Gustiness changed: 190 → None",
+    "Movement changed: North northwestward at 10 km/h → Northwestward at 20 km/h",
+    "Wind extent changed: 860 → 880"
   ],
   "source_urls": {
-    "tcb": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%239_inday.pdf",
+    "tcb": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%2314_inday.pdf",
     "weather_advisory": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/advisory.pdf",
     "gale": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/gale.pdf"
   },
