@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-03T19:00:00+00:00",
+  "last_checked": "2026-08-03T22:37:41+00:00",
   "latest_pagasa_update": {
     "source_type": "TCB",
     "number": "Tropical Cyclone Bulletin No. 15",
@@ -51,8 +51,8 @@
   "rainfall": [
     {
       "source": "Weather Advisory",
-      "issued_at": "11:00 PM, 03 August 2026",
-      "details_raw": "WEATHER ADVISORY NO. 9 For: Low Pressure Area (LPA) and Southwest MonsoonIssued at: 11:00 PM, 03 August 2026 Heavy rainfall outlook due to LPA ForecastRainfall Tonight totomorrowevening (August4) Tomorrow evening toWednesday evening(August 5) Wednesday evening toThursday evening(August 6) Potential Impacts (>200 mm) - - - Widespread incidents of severe flooding andlandslides expected. (100 – 200mm) La Union,Pangasinan,Benguet, Tarlac,Zambales, andBataan La Union, Pangasinan,and Benguet - Numerous flooding events are likely, especiallyin areas that are urbanized, low lying, or nearrivers.Landslide likely in moderate to highlysusceptible areas. (50 – 100 mm) Ilocos Sur, Ifugao,MountainProvince, NuevaVizcaya, NuevaEcija, Aurora,Bulacan,Pampanga, MetroManila, Cavite,and Batangas Ilocos Sur and NuevaVizcaya - Localized flooding is possible mainly in areasthat are urbanized, low lying, or near rivers.Landslide possible in highly susceptible areas. Heavy rainfall outlook due to Southwest Monsoon ForecastRainfall Tonight totomorrowevening (August4) Tomorrow evening toWednesday evening(August 5) Wednesday evening toThursday evening(August 6) Potential Impacts (>200 mm) - - - Widespread incidents of severe flooding andlandslides expected. (100 – 200mm) - Zambales, Bataan,Tarlac, and OccidentalMindoro - Numerous flooding events are likely, especiallyin areas that are urbanized, low lying, or nearrivers.Landslide likely in moderate to highlysusceptible areas. (50 – 100 mm) - Metro Manila, Aurora,Nueva Ecija, Bulacan,Pampanga, Cavite,Batangas, Laguna, andRizal, and Antique La Union, Pangasinan,Benguet, Zambales,Bataan, Cavite, Batangas,Occidental Mindoro, andAntique Localized flooding is possible mainly in areasthat are urbanized, low lying, or near rivers.Landslide possible in highly susceptible areas. Forecast rainfall may be higher in mountainous and elevated areas. Moreover, impacts in some areas may be worsened bysignificantantecedent rainfall. The public disaster risk reduction and management offices concerned are advised to take all necessary measure to protect life andproperty. PAGASA Regional Services Divisions may issue Heavy Rainfall Warnings/Thunderstorms Advisories, and other severeweather informationspecific to their areas of responsibility as appropriate. Unless significant changes occur, the next Weather Advisory will be issued at 5:00 AM tomorrow. PREPARED BY: DJEV CHECKED BY: ADA WFS-07 Rev.2/09-09-2024 \"tracking the sky ...helping the country\" Weather and Flood Forecasting CenterSenator Miriam P. Defensor-Santiago AvenueBrgy. Central, Quezon City 1100, Philippines Tel. No.: (+632) 8284-0800 ext. 4800 Website:https://bagong.pagasa.dost.gov.ph"
+      "issued_at": "",
+      "details_raw": ""
     }
   ],
   "marine": [
@@ -165,9 +165,7 @@
   ],
   "contractor_advisory": "All freight contractors must validate route, weather, road, bridge, and port conditions before dispatch. Keep GPS active and report flooding, landslides, road closures, port cancellations, strong winds, route deviations, or delays immediately.",
   "change_log": [
-    "Bulletin updated: Tropical Cyclone Bulletin No. 14 → Tropical Cyclone Bulletin No. 15",
-    "Gustiness changed: None → 170",
-    "Movement changed: Northwestward at 20 km/h → North northwestward at 20 km/h"
+    "Checked PAGASA sources; no material change versus last verified JSON."
   ],
   "source_urls": {
     "tcb": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%2315_inday.pdf",
