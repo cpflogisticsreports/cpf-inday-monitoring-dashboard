@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-06T08:02:50+00:00",
+  "last_checked": "2026-08-07T01:44:07+00:00",
   "latest_pagasa_update": {
     "source_type": "TCB",
     "number": "Tropical Cyclone Bulletin No. 16",
@@ -51,15 +51,15 @@
   "rainfall": [
     {
       "source": "Weather Advisory",
-      "issued_at": "",
-      "details_raw": ""
+      "issued_at": "5:00 AM, 07 August 2026",
+      "details_raw": "WEATHER ADVISORY NO. 22 For: Southwest Monsoon Issued at: 5:00 AM, 07 August 2026 Heavy rainfall outlook due to Southwest Monsoon Forecast Rainfall Today Tomorrow Sunday (August 9) Potential Impacts (>200 mm) - - - Widespread incidents of severe flooding and landslides expected. (100 – 200 mm) Zambales, Bataan, and Occidental Mindoro Ilocos Sur, La Union, Abra, Benguet, Zambales, Bataan, and Occidental Mindoro Ilocos Sur, La Union, Abra, Benguet, Zambales Numerous flooding events are likely, especially in areas that are urbanized, low lying, or near rivers. Landslide likely in moderate to highly susceptible areas. (50 – 100 mm) Ilocos Sur, La Union, Pangasinan, Abra, Benguet, Tarlac, Pampanga, Bulacan, Metro Manila, Cavite, Batangas, and Antique Ilocos Norte, Pangasinan, Apayao, Kalinga, Mountain Province, Ifugao, Nueva Vizcaya, Tarlac, Nueva Ecija, Pampanga, Bulacan, Metro Manila, Cavite, and Batangas Ilocos Norte, Pangasinan, Apayao, Kalinga, Mountain Province, Ifugao, Nueva Vizcaya, Tarlac, Nueva Ecija, Bataan, Pampanga, and Occidental Mindoro Localized flooding is possible mainly in areas that are urbanized, low lying, or near rivers. Landslide possible in highly susceptible areas. Forecast rainfall may be higher in mountainous and elevated areas. Moreover, impacts in some areas may be worsened by significant antecedent rainfall. The public disaster risk reduction and management offices concerned are advised to take all necessary measure to protect life and property. PAGASA Regional Services Divisions may issue Heavy Rainfall Warnings/Thunderstorms Advisories, and other severe weather information specific to their areas of responsibility as appropriate. Unless significant changes occur, the next Weather Advisory will be issued at 11:00 AM today. PREPARED BY: LMAL CHECKED BY: RBB WFS-07 Rev.2/09-09-2024 \"tracking the sky ...helping the country\" Weather and Flood Forecasting Center Senator Miriam P. Defensor-Santiago Avenue Brgy. Central, Quezon City 1100, Philippines Tel. No.: (+632) 8284-0800 ext. 4800 Website: https://bagong.pagasa.dost.gov.ph"
     }
   ],
   "marine": [
     {
       "source": "Gale Warning",
-      "issued_at": "05:00 AM Today, 06 August 2026",
-      "details_raw": "MMSS-02 Rev.1/24-06-2024 Republic of the PhilippinesDEPARTMENT OF SCIENCE AND TECHNOLOGYPhilippine Atmospheric, Geophysical and AstronomicalServices Administration (PAGASA)Weather Division GALE WARNING NR. 5 For: Strong to Gale-Force winds associated with Tropical Cyclone \"MAYMAY\" Issued at 05:00 AM Today, 06 August 2026 Valid for broadcast until the next warning at 05:00 PM today Strong to Gale-Force winds are prevailing or expected to affect the following areas: Seaboards Weather Winds (km/h / kt) Sea Condition Wave Height THE WESTERN SEABOARD OF NORTHERN LUZON (The western coast of Ilocos Norte {Burgos, Pasuquin, Bacarra, Laoag City, Paoay, Currimao, Pinili, and Badoc} and Ilocos Sur) Stormy (45-68) / (24-36) rough to very rough 2.8-5.0 m THE WESTERN SEABOARD OF NORTHERN LUZON (La Union) Rains with gusty winds(45-68) / (24-36) rough to very rough 2.8-4.5 m THE WESTERN SEABOARD OF NORTHERN LUZON (Pangasinan) Cloudy skies with scattered rains and thunderstorms (45-68) / (24-36) rough to very rough 2.8-4.5 m Warnings are for sea areas within 30 nautical miles from the coast. Sea travel is risky for small seacrafts (including all motor bancas of any type or tonnage). Mariners of these vessels are advised to remain in port or seek safe harbor. For larger vessels, operating in these conditions required experience and properly equipped vessels. Vessel masters, boat captains, ship owners / operators, and Coast Guard units concerned are advised to take appropriate measures to ensure safety of life at sea. Unless there is an intermediate issuance, the next warning will be issued at 05:00 PM today Prepared by:DJEV Checked by:ADA (02) 8284-08-00 local 4801 www.pagasa.dost.gov.ph \"Tracking the sky... helping the country.\" Weather and Flood Forecasting Center Senator Miriam P. Defensor-Santiago AvenueBrgy. Central, Quezon City, Philippines 1100"
+      "issued_at": "05:00 PM Today, 06 August 2026",
+      "details_raw": "MMSS-02 Rev.1/24-06-2024 Republic of the PhilippinesDEPARTMENT OF SCIENCE AND TECHNOLOGYPhilippine Atmospheric, Geophysical and AstronomicalServices Administration (PAGASA)Weather Division GALE WARNING NR. 6 For: Strong to Gale-Force winds associated with Southwest Monsoon Issued at 05:00 PM Today, 06 August 2026 Valid for broadcast until the next warning at 05:00 AM tomorrow. Strong to Gale-Force winds are prevailing or expected to affect the following areas: Seaboards Weather Winds (km/h / kt) Sea Condition Wave Height THE SEABOARD OF EXTREME NORTHERN LUZON (Batanes) Partly cloudy to cloudy skies with isolated rainshowers or thunderstorms (45-63) / (24- 34) rough to very rough 2.8-4.5 m Warnings are for sea areas within 30 nautical miles from the coast. Sea travel is risky for small seacrafts (including all motor bancas of any type or tonnage). Mariners of these vessels are advised to remain in port or seek safe harbor. For larger vessels, operating in these conditions required experience and properly equipped vessels. Vessel masters, boat captains, ship owners / operators, and Coast Guard units concerned are advised to take appropriate measures to ensure safety of life at sea. Unless there is an intermediate issuance, the next warning will be issued at 05:00 AM tomorrow. Prepared by:BJNE Checked by:MAGGE (02) 8284-08-00 local 4801 www.pagasa.dost.gov.ph \"Tracking the sky... helping the country.\" Weather and Flood Forecasting Center Senator Miriam P. Defensor-Santiago AvenueBrgy. Central, Quezon City, Philippines 1100"
     }
   ],
   "regional_advisories": [],
@@ -165,10 +165,7 @@
   ],
   "contractor_advisory": "All freight contractors must validate route, weather, road, bridge, and port conditions before dispatch. Keep GPS active and report flooding, landslides, road closures, port cancellations, strong winds, route deviations, or delays immediately.",
   "change_log": [
-    "Bulletin updated: Tropical Cyclone Bulletin No. 13 → Tropical Cyclone Bulletin No. 16",
-    "Central pressure changed: 960 → 950",
-    "Movement changed: Northwestward at 25 km/h → Northwestward at 40 km/h",
-    "Wind extent changed: 880 → 820"
+    "Checked PAGASA sources; no material change versus last verified JSON."
   ],
   "source_urls": {
     "tcb": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%2316_inday.pdf",
