@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-08T01:19:51+00:00",
+  "last_checked": "2026-08-08T03:08:07+00:00",
   "latest_pagasa_update": {
     "source_type": "TCB",
     "number": "Tropical Cyclone Bulletin No. 16",
@@ -51,8 +51,8 @@
   "rainfall": [
     {
       "source": "Weather Advisory",
-      "issued_at": "",
-      "details_raw": ""
+      "issued_at": "11:00 AM, 08 August 2026",
+      "details_raw": "WEATHER ADVISORY NO. 27 For: Southwest Monsoon Issued at: 11:00 AM, 08 August 2026 Heavy rainfall outlook due to Southwest Monsoon Forecast Rainfall Today to tomorrow noon (August 9) Tomorrow noon to Monday noon (August 10) Monday noon to Tuesday noon (August 11) Potential Impacts (>200 mm) - - - Widespread incidents of severe flooding and landslides expected. (100 – 200 mm) Ilocos Sur, La Union, Abra, Benguet, Zambales, Bataan, and Occidental Mindoro Ilocos Sur, La Union, Benguet, Zambales, Bataan, and Occidental Mindoro Zambales and Bataan Numerous flooding events are likely, especially in areas that are urbanized, low lying, or near rivers. Landslide likely in moderate to highly susceptible areas. (50 – 100 mm) Ilocos Norte, Pangasinan, Apayao, Kalinga, Mountain Province, Ifugao, Nueva Vizcaya, Tarlac, Nueva Ecija, Pampanga, Bulacan, Metro Manila, Rizal, Cavite, Batangas, Oriental Mindoro, and Antique Ilocos Norte, Pangasinan, Abra, Kalinga, Mountain Province, Ifugao, Nueva Vizcaya, Tarlac, Nueva Ecija, Pampanga, Bulacan, Metro Manila, Rizal, Cavite, Batangas, Oriental Mindoro, and Antique La Union, Ilocos Sur, Pangasinan, Benguet, Tarlac, Pampanga, Cavite, Batangas, Occidental Mindoro, and Antique Localized flooding is possible mainly in areas that are urbanized, low lying, or near rivers. Landslide possible in highly susceptible areas. Forecast rainfall may be higher in mountainous and elevated areas. Moreover, impacts in some areas may be worsened by significant antecedent rainfall. The public disaster risk reduction and management offices concerned are advised to take all necessary measure to protect life and property. PAGASA Regional Services Divisions may issue Heavy Rainfall Warnings/Thunderstorms Advisories, and other severe weather information specific to their areas of responsibility as appropriate. Unless significant changes occur, the next Weather Advisory will be issued at 5:00 PM today. PREPARED BY: DJEV CHECKED BY: JAM WFS-07 Rev.2/09-09-2024 \"tracking the sky ...helping the country\" Weather and Flood Forecasting Center Senator Miriam P. Defensor-Santiago Avenue Brgy. Central, Quezon City 1100, Philippines Tel. No.: (+632) 8284-0800 ext. 4800 Website: https://bagong.pagasa.dost.gov.ph"
     }
   ],
   "marine": [
