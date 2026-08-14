@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-14T10:01:07+00:00",
+  "last_checked": "2026-08-14T10:41:55+00:00",
   "latest_pagasa_update": {
     "source_type": "TCB",
     "number": "Tropical Cyclone Bulletin No. 16",
@@ -175,11 +175,5 @@
   "reliability_notes": [
     "PAGASA is the official source of truth.",
     "Satellite imagery is visual context only and must not override PAGASA values."
-  ],
-  "errors": [
-    {
-      "time": "2026-08-14T10:01:07+00:00",
-      "message": "No reachable PAGASA TCB archive PDF found."
-    }
   ]
 }
