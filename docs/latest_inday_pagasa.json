@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-18T08:52:43+00:00",
+  "last_checked": "2026-08-18T09:28:55+00:00",
   "latest_pagasa_update": {
     "source_type": "TCB",
     "number": "Tropical Cyclone Bulletin No. 3",
@@ -225,12 +225,7 @@
   ],
   "contractor_advisory": "All freight contractors must validate route, weather, road, bridge, and port conditions before dispatch. Keep GPS active and report flooding, landslides, road closures, port cancellations, strong winds, route deviations, or delays immediately.",
   "change_log": [
-    "Bulletin updated: Tropical Cyclone Bulletin No. 16 → Tropical Cyclone Bulletin No. 3",
-    "Maximum sustained winds changed: 140 → 195",
-    "Gustiness changed: 170 → 240",
-    "Central pressure changed: 950 → 920",
-    "Movement changed: Northwestward at 40 km/h → West Northwestward at 20 km/h",
-    "Wind extent changed: 820 → 880"
+    "Checked PAGASA sources; no material change versus last verified JSON."
   ],
   "source_urls": {
     "tcb": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%233_inday.pdf",
