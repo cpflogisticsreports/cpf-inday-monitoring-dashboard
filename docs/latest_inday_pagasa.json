@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-19T14:34:12+00:00",
+  "last_checked": "2026-08-19T15:06:51+00:00",
   "latest_pagasa_update": {
     "source_type": "TCB",
     "number": "Tropical Cyclone Bulletin No. 8",
@@ -98,8 +98,8 @@
   "rainfall": [
     {
       "source": "Weather Advisory",
-      "issued_at": "",
-      "details_raw": ""
+      "issued_at": "11:00 PM, 19 August 2026",
+      "details_raw": "WEATHER ADVISORY NO. 73 For: Southwest Monsoon Issued at: 11:00 PM, 19 August 2026 Heavy rainfall outlook due to Southwest Monsoon Forecast Rainfall Tonight to tomorrow evening (August 20) Tomorrow evening to Friday evening (August 21) Friday evening to Saturday evening (August 22) Potential Impacts (>200 mm) - - - Widespread incidents of severe flooding and landslides expected. (100 – 200 mm) Pangasinan, Zambales, and Bataan - - Numerous flooding events are likely, especially in areas that are urbanized, low lying, or near rivers. Landslide likely in moderate to highly susceptible areas. (50 – 100 mm) Metro Manila, Ilocos Norte, Ilocos Sur, La Union, Batanes, Abra, Benguet, Tarlac, Pampanga, Bulacan, Nueva Ecija, Cavite, Batangas, Laguna, Rizal, and Occidental Mindoro Batanes, Ilocos Norte, Ilocos Sur, La Union, Pangasinan, Zambales, and Bataan - Localized flooding is possible mainly in areas that are urbanized, low lying, or near rivers. Landslide possible in highly susceptible areas. Forecast rainfall may be higher in mountainous and elevated areas. Moreover, impacts in some areas may be worsened by significant antecedent rainfall. The public disaster risk reduction and management offices concerned are advised to take all necessary measure to protect life and property. PAGASA Regional Services Divisions may issue Heavy Rainfall Warnings/Thunderstorms Advisories, and other severe weather information specific to their areas of responsibility as appropriate. Unless significant changes occur, the next Weather Advisory will be issued at 5:00 AM tomorrow. PREPARED BY: LMAL CHECKED BY: RBB WFS-07 Rev.2/09-09-2024 \"tracking the sky ...helping the country\" Weather and Flood Forecasting Center Senator Miriam P. Defensor-Santiago Avenue Brgy. Central, Quezon City 1100, Philippines Tel. No.: (+632) 8284-0800 ext. 4800 Website: https://bagong.pagasa.dost.gov.ph"
     }
   ],
   "marine": [
@@ -212,9 +212,7 @@
   ],
   "contractor_advisory": "All freight contractors must validate route, weather, road, bridge, and port conditions before dispatch. Keep GPS active and report flooding, landslides, road closures, port cancellations, strong winds, route deviations, or delays immediately.",
   "change_log": [
-    "Bulletin updated: Tropical Cyclone Bulletin No. 7 → Tropical Cyclone Bulletin No. 8",
-    "Movement changed: Northwestward at 15 km/h → West Northwestward at 20 km/h",
-    "Wind extent changed: 870 → 860"
+    "Checked PAGASA sources; no material change versus last verified JSON."
   ],
   "source_urls": {
     "tcb": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%238_inday.pdf",
