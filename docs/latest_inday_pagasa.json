@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-23T14:38:14+00:00",
+  "last_checked": "2026-08-23T14:59:50+00:00",
   "latest_pagasa_update": {
     "source_type": "TCB",
     "number": "Tropical Cyclone Bulletin No. 16",
@@ -51,8 +51,8 @@
   "rainfall": [
     {
       "source": "Weather Advisory",
-      "issued_at": "",
-      "details_raw": ""
+      "issued_at": "11:00 PM, 23 August 2026",
+      "details_raw": "WEATHER ADVISORY NO. 5 For: Southwest Monsoon Issued at: 11:00 PM, 23 August 2026 Heavy rainfall outlook due to Southwest Monsoon Forecast Rainfall Tonight to tomorrow evening (August 24) Tomorrow evening to Tuesday evening (August 25) Tuesday evening to Wednesday evening (August 26) Potential Impacts (>200 mm) - - - Widespread incidents of severe flooding and landslides expected. (100 – 200 mm) - - - Numerous flooding events are likely, especially in areas that are urbanized, low lying, or near rivers. Landslide likely in moderate to highly susceptible areas. (50 – 100 mm) Batanes - - Localized flooding is possible mainly in areas that are urbanized, low lying, or near rivers. Landslide possible in highly susceptible areas. Forecast rainfall may be higher in mountainous and elevated areas. Moreover, impacts in some areas may beworsened by significant antecedent rainfall. The public disaster risk reduction and management offices concerned are advised to take all necessary measure toprotect life and property. PAGASA Regional Services Divisions may issue Heavy RainfallWarnings/Thunderstorms Advisories, and other severe weather information specific to their areas of responsibility as appropriate. Unless significant changes occur, the next Weather Advisory will be issued at 5:00 AM tomorrow. PREPARED BY: MACD CHECKED BY: ADA WFS-07 Rev.2/09-09-2024 \"tracking the sky ...helping the country\" Weather and Flood Forecasting Center Senator Miriam P. Defensor-Santiago Avenue Brgy. Central, Quezon City 1100, Philippines Tel. No.: (+632) 8284-0800 ext. 4800 Website: https://bagong.pagasa.dost.gov.ph"
     }
   ],
   "marine": [
