@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-27T11:12:04+00:00",
+  "last_checked": "2026-08-27T21:02:13+00:00",
   "latest_pagasa_update": {
     "source_type": "TCB",
     "number": "Tropical Cyclone Bulletin No. 16",
@@ -51,8 +51,8 @@
   "rainfall": [
     {
       "source": "Weather Advisory",
-      "issued_at": "5:00 AM, 27 August 2026",
-      "details_raw": "WEATHER ADVISORY NO. 18 For: Southwest Monsoon Issued at: 5:00 AM, 27 August 2026 Heavy rainfall outlook due to Southwest Monsoon Forecast Rainfall Today Tomorrow Saturday (August 29) Potential Impacts (>200 mm) - - - Widespread incidents of severe flooding and landslides expected. (100 – 200 mm) - - Zambales, Bataan, and Occidental Mindoro Numerous flooding events are likely, especially in areas that are urbanized, low lying, or near rivers. Landslide likely in moderate to highly susceptible areas. (50 – 100 mm) Zambales and Occidental Mindoro La Union, Pangasinan, Benguet, Zambales, Bataan, and Occidental Mindoro Ilocos Sur, La Union, Pangasinan, Abra, Benguet, Tarlac, Nueva Ecija, Pampanga, Bulacan, Metro Manila, Rizal, Cavite, and Batangas Localized flooding is possible mainly in areas that are urbanized, low lying, or near rivers. Landslide possible in highly susceptible areas. Forecast rainfall may be higher in mountainous and elevated areas. Moreover, impacts in some areas may be worsened by significant antecedent rainfall. The public disaster risk reduction and management offices concerned are advised to take all necessary measure to protect life and property. PAGASA Regional Services Divisions may issue Heavy Rainfall Warnings/Thunderstorms Advisories, and other severe weather information specific to their areas of responsibility as appropriate. Unless significant changes occur, the next Weather Advisory will be issued at 11:00 AM today. PREPARED BY: LMAL CHECKED BY: RBB WFS-07 Rev.2/09-09-2024 \"tracking the sky ...helping the country\" Weather and Flood Forecasting Center Senator Miriam P. Defensor-Santiago Avenue Brgy. Central, Quezon City 1100, Philippines Tel. No.: (+632) 8284-0800 ext. 4800 Website: https://bagong.pagasa.dost.gov.ph"
+      "issued_at": "1800 UTC, 27 AUG 2026",
+      "details_raw": "Republic of the Philippines DEPARTMENT OF SCIENCE AND TECHNOLOGY Philippine Atmospheric, Geophysical and Astronomical Services Administration (PAGASA) Weather Division MMSS-01 Rev.1 / 24-06-2024 METEOROLOGICAL MARITIME SAFETY INFORMATION MESSAGE Header: FQPH20 RPMM Issued at: 1800 UTC, 27 AUG 2026 Subject: HIGH SEAS AND OFFSHORE WATERS FORECAST No. of Pages: 1 MESSAGE FQPH20 RPMM 271800 SECURITE HIGH SEAS AND OFFSHORE WATERS FCST FOR METAREA XI SWRN SUB-AREA ISSUED AT 1800 UTC, 27 AUGUST 2026 BY DOST-PAGASA, PHILIPPINES PART I - WARNINGS NIL PART II - SYNOPSIS AT 271800 UTC LOW 1004HPA NEAR 21.9N 128.8E MOV W 10KT. SW MONSOON PREVAILING OVR MOST OF FCST AREAS. PART III - AREA FCST FOR NXT 24 HOURS WINDS IN BEAUFORT. SEA IN METERS. TAIWAN STRAIT : SW TO S 3-6. SEA 0.5-2 M BECMG 1-2.5 M. ISOL SQL SHWRS OR TSTM. EAST TAIWAN: CYCLONIC 2-7 BECMG SW TO SE 2-6. SEA 1-3 M OCNL 3.5 M. ISOL SQL SHWRS OR TSTM. RYUKYU: SW TO SE 2-6. SEA 1.5-3.5 M. SCT SQL SHWRS OR TSTM. BASHI : SW 4-6 OCNL 7. SEA 1.5-3.5 M. SCT SQL SHWRS OR TSTM. BALINTANG : SW 3-6. SEA 1-3.5 M. SCT SQL SHWRS OR TSTM. NORTH PHILIPPINE : SW TO SE 2-6. SEA 1.5-3 M. FRQ SQL RA. CENTRAL PHILIPPINE : SW 3-6. SEA 1-3 M. FRQ SQL HVY RA. SCARBOROUGH : SW 4-6. SEA 1.5-3 M. FRQ SQL HVY RA. MINDORO : SW 4-6. SEA 1.5-3 M. OCNL SQL RA. PALAWAN : SW 3-5. SEA 0.5-2 M OCNL 2.5 M. SCT SHWRS OR TSTM. SULU : SW 3-6. SEA 0.5-1.5 M. SCT SHWRS OR TSTM BECMG OCNL SQL RA SOON. INLAND : SW 3-6. SEA 0.5-2 M. SCT SQL SHWRS OR TSTM. MINDANAO : SW 3-5. SEA UP TO 1.5 M. SCT SHWRS OR TSTM. SOUTH PHILIPPINE: S TO SW 4-5 OCNL 6. SEA 1-2.5 M. SCT SQL SHWRS OR TSTM BECMG ISOL SQL SHWRS OR TSTM SOON. MORO : S 2-4. SEA UP TO 1.5 M. ISOL SHWRS OR TSTM. NEXT FCST AT 280600 UTC WEATHER MANILA= If any part of this message is not received, especially those transmitted via GMDSS, please contact the Marine Meteorological Services Section at marine@pagasa.dost.gov.ph Prepared by: RBB Checked by: LMAL “tracking the sky…helping the country.” Weather and Flood Forecasting Center Tel. No.: (+632) 8284-0800 ext. 4800 Senator Miriam P. Defensor-Santiago Avenue Website: https://bagong.pagasa.dost.gov.ph Brgy. Central, Quezon City 1100, Philippines"
     }
   ],
   "marine": [
@@ -175,11 +175,5 @@
   "reliability_notes": [
     "PAGASA is the official source of truth.",
     "Satellite imagery is visual context only and must not override PAGASA values."
-  ],
-  "errors": [
-    {
-      "time": "2026-08-27T11:12:04+00:00",
-      "message": "<urlopen error [Errno 104] Connection reset by peer>"
-    }
   ]
 }
