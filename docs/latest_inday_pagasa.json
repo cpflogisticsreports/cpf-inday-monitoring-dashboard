@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-27T21:02:13+00:00",
+  "last_checked": "2026-08-28T05:23:37+00:00",
   "latest_pagasa_update": {
     "source_type": "TCB",
     "number": "Tropical Cyclone Bulletin No. 16",
@@ -51,8 +51,8 @@
   "rainfall": [
     {
       "source": "Weather Advisory",
-      "issued_at": "1800 UTC, 27 AUG 2026",
-      "details_raw": "Republic of the Philippines DEPARTMENT OF SCIENCE AND TECHNOLOGY Philippine Atmospheric, Geophysical and Astronomical Services Administration (PAGASA) Weather Division MMSS-01 Rev.1 / 24-06-2024 METEOROLOGICAL MARITIME SAFETY INFORMATION MESSAGE Header: FQPH20 RPMM Issued at: 1800 UTC, 27 AUG 2026 Subject: HIGH SEAS AND OFFSHORE WATERS FORECAST No. of Pages: 1 MESSAGE FQPH20 RPMM 271800 SECURITE HIGH SEAS AND OFFSHORE WATERS FCST FOR METAREA XI SWRN SUB-AREA ISSUED AT 1800 UTC, 27 AUGUST 2026 BY DOST-PAGASA, PHILIPPINES PART I - WARNINGS NIL PART II - SYNOPSIS AT 271800 UTC LOW 1004HPA NEAR 21.9N 128.8E MOV W 10KT. SW MONSOON PREVAILING OVR MOST OF FCST AREAS. PART III - AREA FCST FOR NXT 24 HOURS WINDS IN BEAUFORT. SEA IN METERS. TAIWAN STRAIT : SW TO S 3-6. SEA 0.5-2 M BECMG 1-2.5 M. ISOL SQL SHWRS OR TSTM. EAST TAIWAN: CYCLONIC 2-7 BECMG SW TO SE 2-6. SEA 1-3 M OCNL 3.5 M. ISOL SQL SHWRS OR TSTM. RYUKYU: SW TO SE 2-6. SEA 1.5-3.5 M. SCT SQL SHWRS OR TSTM. BASHI : SW 4-6 OCNL 7. SEA 1.5-3.5 M. SCT SQL SHWRS OR TSTM. BALINTANG : SW 3-6. SEA 1-3.5 M. SCT SQL SHWRS OR TSTM. NORTH PHILIPPINE : SW TO SE 2-6. SEA 1.5-3 M. FRQ SQL RA. CENTRAL PHILIPPINE : SW 3-6. SEA 1-3 M. FRQ SQL HVY RA. SCARBOROUGH : SW 4-6. SEA 1.5-3 M. FRQ SQL HVY RA. MINDORO : SW 4-6. SEA 1.5-3 M. OCNL SQL RA. PALAWAN : SW 3-5. SEA 0.5-2 M OCNL 2.5 M. SCT SHWRS OR TSTM. SULU : SW 3-6. SEA 0.5-1.5 M. SCT SHWRS OR TSTM BECMG OCNL SQL RA SOON. INLAND : SW 3-6. SEA 0.5-2 M. SCT SQL SHWRS OR TSTM. MINDANAO : SW 3-5. SEA UP TO 1.5 M. SCT SHWRS OR TSTM. SOUTH PHILIPPINE: S TO SW 4-5 OCNL 6. SEA 1-2.5 M. SCT SQL SHWRS OR TSTM BECMG ISOL SQL SHWRS OR TSTM SOON. MORO : S 2-4. SEA UP TO 1.5 M. ISOL SHWRS OR TSTM. NEXT FCST AT 280600 UTC WEATHER MANILA= If any part of this message is not received, especially those transmitted via GMDSS, please contact the Marine Meteorological Services Section at marine@pagasa.dost.gov.ph Prepared by: RBB Checked by: LMAL “tracking the sky…helping the country.” Weather and Flood Forecasting Center Tel. No.: (+632) 8284-0800 ext. 4800 Senator Miriam P. Defensor-Santiago Avenue Website: https://bagong.pagasa.dost.gov.ph Brgy. Central, Quezon City 1100, Philippines"
+      "issued_at": "",
+      "details_raw": ""
     }
   ],
   "marine": [
