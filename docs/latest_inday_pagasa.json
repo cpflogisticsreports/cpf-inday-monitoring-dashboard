@@ -1,73 +1,70 @@
 {
-  "last_checked": "2026-09-01T12:01:14+00:00",
+  "last_checked": "2026-09-01T16:38:59+00:00",
   "latest_pagasa_update": {
     "source_type": "TCB",
-    "number": "Tropical Cyclone Bulletin No. 12",
-    "issued_at": "5:00 PM, 10 July 2026",
-    "valid_until": "the next bulletin at 11:00 PM today",
-    "source_url": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%2312_inday.pdf"
+    "number": "Tropical Cyclone Bulletin No. 13",
+    "issued_at": "11:00 PM, 10 July 2026",
+    "valid_until": "the next bulletin at 5:00 AM tomorrow",
+    "source_url": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%2313_inday.pdf"
   },
   "storm": {
     "name": "INDAY",
     "international_name": "BAVI",
     "category": "Typhoon",
-    "current_center_time": "4:00 PM",
-    "lat": 22.1,
-    "lon": 126.7,
-    "position_description": "525 km East Northeast of Itbayat, Batanes",
+    "current_center_time": "10:00 PM",
+    "lat": 23.0,
+    "lon": 125.9,
+    "position_description": "485 km East Northeast of Itbayat, Batanes",
     "max_winds_kmh": 140,
     "gustiness_kmh": 170,
     "central_pressure_hpa": 960,
-    "movement": "North northwestward at 20 km/h",
-    "movement_speed_kmh": 20,
+    "movement": "Northwestward at 25 km/h",
+    "movement_speed_kmh": 25,
     "wind_extent_km": 880
   },
   "forecast_track": [
     {
       "label": "Current",
-      "forecast_time": "Current: 4:00 PM, 10 July 2026",
-      "lat": 22.1,
-      "lon": 126.7,
-      "position_description": "525 km East Northeast of Itbayat, Batanes",
+      "forecast_time": "Current: 10:00 PM, 10 July 2026",
+      "lat": 23.0,
+      "lon": 125.9,
+      "position_description": "485 km East Northeast of Itbayat, Batanes",
       "max_winds_kmh": 140,
       "gustiness_kmh": 170,
       "central_pressure_hpa": 960,
       "category": "Typhoon",
-      "movement_direction": "North northwestward",
-      "movement_speed_kmh": 20
+      "movement_direction": "Northwestward",
+      "movement_speed_kmh": 25
     },
     {
-      "forecast_time": "2:00 AM, 11 July 2026",
-      "lat": 24.0,
-      "lon": 125.0,
-      "position_description": "485 km Northeast of Itbayat, Batanes",
+      "forecast_time": "8:00 AM, 11 July 2026",
+      "lat": 25.1,
+      "lon": 124.2,
+      "position_description": "540 km North Northeast of Itbayat, Batanes (OUTSIDE PAR)",
       "max_winds_kmh": 140,
       "category": "Typhoon",
       "movement_direction": "NW",
       "movement_speed_kmh": 25
     },
     {
-      "forecast_time": "2:00 PM, 11 July 2026",
-      "lat": 26.2,
-      "lon": 122.5,
-      "position_description": "605 km North of Itbayat, Batanes (OUTSIDE PAR)",
+      "forecast_time": "8:00 PM, 11 July 2026",
+      "lat": 27.2,
+      "lon": 121.8,
+      "position_description": "715 km North of Itbayat, Batanes (OUTSIDE PAR)",
       "max_winds_kmh": 130,
       "category": "Typhoon",
       "movement_direction": "NW",
       "movement_speed_kmh": 30
-    },
-    {
-      "forecast_time": "2:00 AM, 12 July 2026",
-      "lat": 28.0,
-      "lon": 119.9,
-      "position_description": "825 km North Northwest of Extreme Northern Luzon or in the vicinity of Zhejiang, China (OUTSIDE PAR)",
-      "max_winds_kmh": 110,
-      "category": "Severe Tropical Storm",
-      "movement_direction": "NW",
-      "movement_speed_kmh": 25
     }
   ],
-  "tcws": [],
+  "tcws": [
+    {
+      "signal": "TCWS No. 2",
+      "areas_raw": "Batanes",
+      "wind_range_kmh": "62–88",
+      "potential_impact": "Minor to moderate threat to life and property."
+    }
+  ],
   "rainfall": [
     {
       "source": "Weather Advisory",
@@ -185,12 +182,11 @@
   ],
   "contractor_advisory": "All freight contractors must validate route, weather, road, bridge, and port conditions before dispatch. Keep GPS active and report flooding, landslides, road closures, port cancellations, strong winds, route deviations, or delays immediately.",
   "change_log": [
-    "Bulletin updated: Tropical Cyclone Bulletin No. 11 → Tropical Cyclone Bulletin No. 12",
-    "Movement changed: Northwestward at 20 km/h → North northwestward at 20 km/h",
-    "Wind extent changed: 860 → 880"
+    "Bulletin updated: Tropical Cyclone Bulletin No. 12 → Tropical Cyclone Bulletin No. 13",
+    "Movement changed: North northwestward at 20 km/h → Northwestward at 25 km/h"
   ],
   "source_urls": {
-    "tcb": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%2312_inday.pdf",
+    "tcb": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/bulletin/TCB%2313_inday.pdf",
     "weather_advisory": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/advisory.pdf",
     "gale": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/gale.pdf"
   },
