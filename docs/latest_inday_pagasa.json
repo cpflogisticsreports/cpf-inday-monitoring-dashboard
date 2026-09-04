@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-04T19:35:00+00:00",
+  "last_checked": "2026-09-04T21:50:08+00:00",
   "latest_pagasa_update": {
     "source_type": "TCB",
     "number": "Tropical Cyclone Bulletin No. 16",
@@ -51,8 +51,8 @@
   "rainfall": [
     {
       "source": "Weather Advisory",
-      "issued_at": "11:00 PM, 04 September 2026",
-      "details_raw": "WEATHER ADVISORY NO. 53 For: Southwest Monsoon Issued at: 11:00 PM, 04 September 2026 Heavy rainfall outlook due to Southwest Monsoon Forecast Rainfall Tonight to tomorrow evening (September 5) Tomorrow evening to Sunday evening (September 6) Sunday evening to Monday evening (September 7) Potential Impacts (>200 mm) - - - Widespread incidents of severe flooding and landslides expected. (100 – 200 mm) Zambales and Bataan Occidental Mindoro - Numerous flooding events are likely, especially in areas that are urbanized, low lying, or near rivers. Landslide likely in moderate to highly susceptible areas. (50 – 100 mm) Tarlac, Pampanga, Bulacan, Metro Manila, Rizal, Cavite, Laguna, Batangas, Occidental Mindoro, Oriental Mindoro, and Antique Zambales, Bataan, Tarlac, Pampanga, Bulacan, Metro Manila, Rizal, Cavite, Laguna, Batangas, Oriental Mindoro, and Antique Zambales, Bataan, Tarlac, Pampanga, Cavite, Batangas, and Occidental Mindoro Localized flooding is possible mainly in areas that are urbanized, low lying, or near rivers. Landslide possible in highly susceptible areas. Forecast rainfall may be higher in mountainous and elevated areas. Moreover, impacts in some areas may be worsened by significant antecedent rainfall. The public disaster risk reduction and management offices concerned are advised to take all necessary measure to protect life and property. PAGASA Regional Services Divisions may issue Heavy Rainfall Warnings/Thunderstorm Advisories, and other severe weather information specific to their areas of responsibility as appropriate. Unless significant changes occur, the next Weather Advisory will be issued at 5:00 AM today. PREPARED BY: DJEV CHECKED BY: VCT WFS-07 Rev.2/09-09-2024 \"tracking the sky ...helping the country\" Weather and Flood Forecasting Center Senator Miriam P. Defensor-Santiago Avenue Brgy. Central, Quezon City 1100, Philippines Tel. No.: (+632) 8284-0800 ext. 4800 Website: https://bagong.pagasa.dost.gov.ph"
+      "issued_at": "",
+      "details_raw": ""
     }
   ],
   "marine": [
